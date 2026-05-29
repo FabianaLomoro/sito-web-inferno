@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mp:metadata 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns:dc="http://purl.org/dc/elements/1.1/" 
+xmlns:dcterms="http://purl.org/dc/terms/" 
+xmlns:mp="http://InfernoDore/schema" 
+xmlns:tei="http://www.tei-c.org/ns/1.0">
+<dc:title>Canto XXXIV</dc:title>
+<dc:creator>Gustave Doré</dc:creator>
+<dcterms:creator xsi:type="dcterms:URI" mp:authority="VIAF">http://viaf.org/viaf/41839207</dcterms:creator>
+<dcterms:subject xsi:type="dcterms:LSCH">http://id.loc.gov/authorities/subjects/sh96011730</dcterms:subject>
+<dc:description>La xilografia sigilla l'Inferno e rappresenta il culmine della transizione dall'angoscia alla speranza teologale (e quindi uscimmo a riveder le stelle). Dante e Virgilio sono accolti dal candore delle stelle, incise come punti di luce pura nella trama del cielo.</dc:description>
+<dc:publisher>Hachette</dc:publisher>
+<dcterms:publisher xsi:type="dcterms:URI" mp:authority="VIAF">http://viaf.org/viaf/159641835</dcterms:publisher>
+<dc:contributor>Fabiana Lomoro</dc:contributor>
+<dc:date>1861</dc:date>
+<dcterms:created>2007</dcterms:created>
+<mp:luogo mp:tipo="mp:creazione" ref="https://www.geonames.org/2988507">Parigi</mp:luogo>
+<dc:type mp:versione="mp:digitale">Image</dc:type>
+<dc:type mp:versione="mp:analogica">Illustrazione</dc:type>
+<dc:format mp:versione="mp:digitale">JPG</dc:format>
+<dc:format mp:versione="mp:analogica">Xilografia</dc:format>
+<dcterms:extent mp:versione="digitale">194kb</dcterms:extent>
+<dc:identifier>https://commons.wikimedia.org/wiki/File:Inferno_Canto_34,_Gustave_Dor%C3%A8_3.jpg</dc:identifier>
+<dc:language>Italiano</dc:language>
+<dc:rights>Dominio Pubblico</dc:rights>
+
+</mp:metadata>

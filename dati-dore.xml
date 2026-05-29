@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collezione>
+<oggetto n="1" xml:id="oggetto1">
+	<canto>I</canto>
+	<cerchio>Ante-Inferno</cerchio>
+	<personaggi>
+		<persona ref="http://viaf.org/viaf/97105654">Dante</persona>
+	</personaggi>
+	<creatore ref="http://viaf.org/viaf/41839207">Gustave Doré</creatore>
+	<data tipo="creazione">1861</data>
+	<luogo tipo="creazione" ref="https://www.geonames.org/2988507">Parigi</luogo>
+	<tecnica ref="http://vocab.getty.edu/aat/300041391">Xilografia</tecnica>
+	<colore>Bianco e nero</colore>
+	<editore ref="http://viaf.org/viaf/159641835">Hachette</editore>
+	<immagine collegamento="immagine01.jpg">canto01</immagine>
+	<pagina collegamento="item1.html1">Item 1</pagina>
+</oggetto>
+<oggetto n="2" xml:id="oggetto2">
+	<canto>II</canto>
+	<cerchio>Ante-Inferno</cerchio>
+	<personaggi>
+		<persona ref="http://viaf.org/viaf/97105654">Dante</persona>
+		<persona ref="http://viaf.org/viaf/8194433">Virgilio</persona>
+	</personaggi>
+	<creatore ref="http://viaf.org/viaf/41839207">Gustave Doré</creatore>
+	<data tipo="creazione">1861</data>
+	<luogo tipo="creazione" ref="https://www.geonames.org/2988507">Parigi</luogo>
+	<tecnica ref="http://vocab.getty.edu/aat/300041391">Xilografia</tecnica>
+	<colore>Bianco e nero</colore>
+	<editore ref="http://viaf.org/viaf/159641835">Hachette</editore>
+	<immagine collegamento="immagine02.jpg">canto02</immagine>
+	<pagina collegamento="item2.html2">Item 2</pagina>
+</oggetto>
+<oggetto n="3" xml:id="oggetto3">
+	<canto>III</canto>
+	<cerchio>Ante-Inferno</cerchio>
+	<personaggi>
+		<persona>Caronte</persona>
+	</personaggi>
+	<creatore ref="http://viaf.org/viaf/41839207">Gustave Doré</creatore>
+	<data tipo="creazione">1861</data>
+	<luogo tipo="creazione" ref="https://www.geonames.org/2988507">Parigi</luogo>
+	<tecnica ref="http://vocab.getty.edu/aat/300041391">Xilografia</tecnica>
+	<colore>Bianco e nero</colore>
+	<editore ref="http://viaf.org/viaf/159641835">Hachette</editore>
+	<immagine collegamento="immagine03.jpg">canto03</immagine>
+	<pagina collegamento="item3.html3">Item 3</pagina>
+</oggetto>
+<oggetto n="4" xml:id="oggetto4">
+	<canto>IV</canto>
+	<cerchio>Primo cerchio</cerchio>
+	<personaggi>
+		<persona ref="http://viaf.org/viaf/97105654">Dante</persona>
+		<persona ref="http://viaf.org/viaf/8194433">Virgilio</persona>
+		<persona ref="http://viaf.org/viaf/224924963">Omero</persona>
+		<persona ref="http://viaf.org/viaf/100227522">Orazio</persona>
+		<persona ref="http://viaf.org/viaf/88342447">Ovidio</persona>
+		<persona ref="http://viaf.org/viaf/100902938">Lucano</persona>
+	</personaggi>
+	<creatore ref="http://viaf.org/viaf/41839207">Gustave Doré</creatore>
+	<data tipo="creazione">1861</data>
+	<luogo tipo="creazione" ref="https://www.geonames.org/2988507">Parigi</luogo>
+	<tecnica ref="http://vocab.getty.edu/aat/300041391">Xilografia</tecnica>
+	<colore>Bianco e nero</colore>
+	<editore ref="http://viaf.org/viaf/159641835">Hachette</editore>
+	<immagine collegamento="immagine04.jpg">canto04</immagine>
+<pagina collegamento="item4.html4">Item 4</pagina>
+</oggetto>
+<oggetto n="5" xml:id="oggetto5">
+	<canto>V</canto>
+	<cerchio>Secondo cerchio</cerchio>
+	<personaggi>
+		<persona ref="http://viaf.org/viaf/35385230">Paolo</persona>
+		<persona ref="http://viaf.org/viaf/55527538">Francesca</persona>
+	</personaggi>
+	<creatore ref="http://viaf.org/viaf/41839207">Gustave Doré</creatore>
+	<data tipo="creazione">1861</data>
+	<luogo tipo="creazione" ref="https://www.geonames.org/2988507">Parigi</luogo>
+	<tecnica ref="http://vocab.getty.edu/aat/300041391">Xilografia</tecnica>
+	<colore>Bianco e nero</colore>
+	<editore ref="http://viaf.org/viaf/159641835">Hachette</editore>
+	<immagine collegamento="immagine05.jpg">canto05</immagine>
+	<pagina collegamento="item5.html5">Item 5</pagina>
+</oggetto>
+<oggetto n="6" xml:id="oggetto6">
+	<canto>VI</canto>
+	<cerchio>Terzo cerchio</cerchio>
+	<personaggi>
+		<persona ref="http://viaf.org/viaf/97105654">Dante</persona>
+		<persona ref="http://viaf.org/viaf/8194433">Virgilio</persona>
+		<persona ref="http://viaf.org/viaf/187590159">Cerbero</persona>
+	</personaggi>
+	<creatore ref="http://viaf.org/viaf/41839207">Gustave Doré</creatore>
+	<data tipo="creazione">1861</data>
+	<luogo tipo="creazione" ref="https://www.geonames.org/2988507">Parigi</luogo>
+	<tecnica ref="http://vocab.getty.edu/aat/300041391">Xilografia</tecnica>
+	<colore>Bianco e nero</colore>
+	<editore ref="http://viaf.org/viaf/159641835">Hachette</editore>
+	<immagine collegamento="immagine06.jpg">canto06</immagine>
+	<pagina collegamento="item6.html6">Item 6</pagina>
+</oggetto>
+<oggetto n="7" xml:id="oggetto7">
+	<canto>VII</canto>
+<cerchio>Quarto e quinto cerchio</cerchio>
+	<personaggi>
+		<persona ref="http://viaf.org/viaf/97105654">Dante</persona>
+		<persona ref="http://viaf.org/viaf/8194433">Virgilio</persona>
+		<persona>Pluto</persona>
+	</personaggi>
+	<creatore ref="http://viaf.org/viaf/41839207">Gustave Doré</creatore>
+	<data tipo="creazione">1861</data>
+	<luogo tipo="creazione" ref="https://www.geonames.org/2988507">Parigi</luogo>
+	<tecnica ref="http://vocab.getty.edu/aat/300041391">Xilografia</tecnica>
+	<colore>Bianco e nero</colore>
+	<editore ref="http://viaf.org/viaf/159641835">Hachette</editore>
+	<immagine collegamento="immagine07.jpg">canto07</immagine>
+	<pagina collegamento="item7.html7">Item 7</pagina>
+</oggetto>
+<oggetto n="8" xml:id="oggetto8">
+	<canto>VIII</canto>
+	<cerchio>Quinto cerchio</cerchio>
+	<personaggi>
+		<persona ref="http://viaf.org/viaf/97105654">Dante</persona>
+		<persona ref="http://viaf.org/viaf/8194433">Virgilio</persona>
+		<persona>Flegias</persona>
+		<persona ref="http://viaf.org/viaf/388159474310227662338">Filippo Argenti</persona>
+	</personaggi>
+	<creatore ref="http://viaf.org/viaf/41839207">Gustave Doré</creatore>
+	<data tipo="creazione">1861</data>
+	<luogo tipo="creazione" ref="https://www.geonames.org/2988507">Parigi</luogo>
+	<tecnica ref="http://vocab.getty.edu/aat/300041391">Xilografia</tecnica>
+	<colore>Bianco e nero</colore>
+	<editore ref="http://viaf.org/viaf/159641835">Hachette</editore>
+	<immagine collegamento="immagine08.jpg">canto08</immagine>
+	<pagina collegamento="item8.html8">Item 8</pagina>
+</oggetto>
+<oggetto n="9" xml:id="oggetto9">
+	<canto>IX</canto>
+	<cerchio>Sesto cerchio</cerchio>
+	<personaggi>
+		<persona ref="http://viaf.org/viaf/97105654">Dante</persona>
+		<persona ref="http://viaf.org/viaf/8194433">Virgilio</persona>
+		<persona>Erinni</persona>
+	</personaggi>
+	<creatore ref="http://viaf.org/viaf/41839207">Gustave Doré</creatore>
+	<data tipo="creazione">1861</data>
+	<luogo tipo="creazione" ref="https://www.geonames.org/2988507">Parigi</luogo>
+	<tecnica ref="http://vocab.getty.edu/aat/300041391">Xilografia</tecnica>
+	<colore>Bianco e nero</colore>
+	<editore ref="http://viaf.org/viaf/159641835">Hachette</editore>
+	<immagine collegamento="immagine09.jpg">canto09</immagine>
+<pagina collegamento="item9.html9">Item 9</pagina>
+</oggetto>
+<oggetto n="10" xml:id="oggetto10">
+	<canto>X</canto>
+	<cerchio>Sesto cerchio</cerchio>
+	<personaggi>
+		<persona ref="http://viaf.org/viaf/97105654">Dante</persona>
+		<persona ref="http://viaf.org/viaf/8194433">Virgilio</persona>
+		<persona ref="http://viaf.org/viaf/22073869">Farinata degli Uberti</persona>
+	</personaggi>
+	<creatore ref="http://viaf.org/viaf/41839207">Gustave Doré</creatore>
+	<data tipo="creazione">1861</data>
+	<luogo tipo="creazione" ref="https://www.geonames.org/2988507">Parigi</luogo>
+	<tecnica ref="http://vocab.getty.edu/aat/300041391">Xilografia</tecnica>
+	<colore>Bianco e nero</colore>
+	<editore ref="http://viaf.org/viaf/159641835">Hachette</editore>
+	<immagine collegamento="immagine10.jpg">canto10</immagine>
+	<pagina collegamento="item10.html10">Item 10</pagina>
+</oggetto>
+<oggetto n="11" xml:id="oggetto11">
+	<canto>XI</canto>
+	<cerchio>Sesto cerchio</cerchio>
+	<personaggi>
+		<persona ref="http://viaf.org/viaf/97105654">Dante</persona>
+		<persona ref="http://viaf.org/viaf/8194433">Virgilio</persona>
+	</personaggi>
+	<creatore ref="http://viaf.org/viaf/41839207">Gustave Doré</creatore>
+	<data tipo="creazione">1861</data>
+	<luogo tipo="creazione" ref="https://www.geonames.org/2988507">Parigi</luogo>
+	<tecnica ref="http://vocab.getty.edu/aat/300041391">Xilografia</tecnica>
+	<colore>Bianco e nero</colore>
+	<editore ref="http://viaf.org/viaf/159641835">Hachette</editore>
+	<immagine collegamento="immagine11.jpg">canto11</immagine>
+	<pagina collegamento="item11.html11">Item 11</pagina>
+</oggetto>
+<oggetto n="12" xml:id="oggetto12">
+	<canto>XII</canto>
+	<cerchio>Settimo cerchio</cerchio>
+	<personaggi>
+		<persona ref="http://viaf.org/viaf/97105654">Dante</persona>
+		<persona ref="http://viaf.org/viaf/8194433">Virgilio</persona>
+		<persona ref="http://viaf.org/viaf/88150030542310960353">Minotauro</persona>
+	</personaggi>
+	<creatore ref="http://viaf.org/viaf/41839207">Gustave Doré</creatore>
+	<data tipo="creazione">1861</data>
+	<luogo tipo="creazione" ref="https://www.geonames.org/2988507">Parigi</luogo>
+	<tecnica ref="http://vocab.getty.edu/aat/300041391">Xilografia</tecnica>
+	<colore>Bianco e nero</colore>
+	<editore ref="http://viaf.org/viaf/159641835">Hachette</editore>
+	<immagine collegamento="immagine12.jpg">canto12</immagine>
+	<pagina collegamento="item12.html12">Item 12</pagina>
+</oggetto>
+<oggetto n="13" xml:id="oggetto13">
+	<canto>XIII</canto>
+	<cerchio>Settimo cerchio</cerchio>
+	<personaggi>
+		<persona ref="http://viaf.org/viaf/97105654">Dante</persona>
+		<persona ref="http://viaf.org/viaf/8194433">Virgilio</persona>
+		<persona>Arpie</persona>
+		<persona ref="http://viaf.org/viaf/122196429">Pier della Vigna</persona>
+	</personaggi>
+	<creatore ref="http://viaf.org/viaf/41839207">Gustave Doré</creatore>
+	<data tipo="creazione">1861</data>
+	<luogo tipo="creazione" ref="https://www.geonames.org/2988507">Parigi</luogo>
+	<tecnica ref="http://vocab.getty.edu/aat/300041391">Xilografia</tecnica>
+	<colore>Bianco e nero</colore>
+	<editore ref="http://viaf.org/viaf/159641835">Hachette</editore>
+	<immagine collegamento="immagine13.jpg">canto13</immagine>
+	<pagina collegamento="item13.html13">Item 13</pagina>
+</oggetto>
+<oggetto n="14" xml:id="oggetto14">
+	<canto>XIV</canto>
+	<cerchio>Settimo cerchio</cerchio>
+	<personaggi>
+		<persona ref="http://viaf.org/viaf/97105654">Dante</persona>
+		<persona ref="http://viaf.org/viaf/8194433">Virgilio</persona>
+		<persona>Capaneo</persona>
+	</personaggi>
+	<creatore ref="http://viaf.org/viaf/41839207">Gustave Doré</creatore>
+	<data tipo="creazione">1861</data>
+	<luogo tipo="creazione" ref="https://www.geonames.org/2988507">Parigi</luogo>
+	<tecnica ref="http://vocab.getty.edu/aat/300041391">Xilografia</tecnica>
+	<colore>Bianco e nero</colore>
+	<editore ref="http://viaf.org/viaf/159641835">Hachette</editore>
+	<immagine collegamento="immagine14.jpg">canto14</immagine>
+<pagina collegamento="item14.html14">Item 14</pagina>
+</oggetto>
+<oggetto n="15" xml:id="oggetto15">
+	<canto>XV</canto>
+	<cerchio>Settimo cerchio</cerchio>
+	<personaggi>
+		<persona ref="http://viaf.org/viaf/97105654">Dante</persona>
+		<persona ref="http://viaf.org/viaf/8194433">Virgilio</persona>
+		<persona ref="http://viaf.org/viaf/19680057">Brunetto Latini</persona>
+	</personaggi>
+	<creatore ref="http://viaf.org/viaf/41839207">Gustave Doré</creatore>
+	<data tipo="creazione">1861</data>
+	<luogo tipo="creazione" ref="https://www.geonames.org/2988507">Parigi</luogo>
+	<tecnica ref="http://vocab.getty.edu/aat/300041391">Xilografia</tecnica>
+	<colore>Bianco e nero</colore>
+	<editore ref="http://viaf.org/viaf/159641835">Hachette</editore>
+	<immagine collegamento="immagine15.jpg">canto15</immagine>
+	<pagina collegamento="item15.html15">Item 15</pagina>
+</oggetto>
+<oggetto n="17" xml:id="oggetto17">
+	<canto>XVII</canto>
+	<cerchio>Settimo cerchio</cerchio>
+	<personaggi>
+		<persona ref="http://viaf.org/viaf/97105654">Dante</persona>
+		<persona ref="http://viaf.org/viaf/8194433">Virgilio</persona>
+		<persona ref="http://viaf.org/viaf/179289917">Gerione</persona>
+	</personaggi>
+	<creatore ref="http://viaf.org/viaf/41839207">Gustave Doré</creatore>
+	<data tipo="creazione">1861</data>
+	<luogo tipo="creazione" ref="https://www.geonames.org/2988507">Parigi</luogo>
+	<tecnica ref="http://vocab.getty.edu/aat/300041391">Xilografia</tecnica>
+	<colore>Bianco e nero</colore>
+	<editore ref="http://viaf.org/viaf/159641835">Hachette</editore>
+	<immagine collegamento="immagine17.jpg">canto17</immagine>
+	<pagina collegamento="item17.html17">Item 17</pagina>
+</oggetto>
+<oggetto n="18" xml:id="oggetto18">
+	<canto>XVIII</canto>
+	<cerchio>Ottavo cerchio</cerchio>
+	<personaggi>
+		<persona ref="http://viaf.org/viaf/97105654">Dante</persona>
+		<persona ref="http://viaf.org/viaf/8194433">Virgilio</persona>
+	</personaggi>
+	<creatore ref="http://viaf.org/viaf/41839207">Gustave Doré</creatore>
+	<data tipo="creazione">1861</data>
+	<luogo tipo="creazione" ref="https://www.geonames.org/2988507">Parigi</luogo>
+	<tecnica ref="http://vocab.getty.edu/aat/300041391">Xilografia</tecnica>
+	<colore>Bianco e nero</colore>
+	<editore ref="http://viaf.org/viaf/159641835">Hachette</editore>
+	<immagine collegamento="immagine18.jpg">canto18</immagine>
+	<pagina collegamento="item18.html18">Item 18</pagina>
+</oggetto>
+<oggetto n="19" xml:id="oggetto19">
+	<canto>XIX</canto>
+	<cerchio>Ottavo cerchio</cerchio>
+	<personaggi>
+		<persona ref="http://viaf.org/viaf/97105654">Dante</persona>
+		<persona ref="http://viaf.org/viaf/8194433">Virgilio</persona>
+	</personaggi>
+	<creatore ref="http://viaf.org/viaf/41839207">Gustave Doré</creatore>
+	<data tipo="creazione">1861</data>
+	<luogo tipo="creazione" ref="https://www.geonames.org/2988507">Parigi</luogo>
+	<tecnica ref="http://vocab.getty.edu/aat/300041391">Xilografia</tecnica>
+	<colore>Bianco e nero</colore>
+	<editore ref="http://viaf.org/viaf/159641835">Hachette</editore>
+	<immagine collegamento="immagine19.jpg">canto19</immagine>
+<pagina collegamento="item19.html19">Item 19</pagina>
+</oggetto>
+<oggetto n="21" xml:id="oggetto21">
+	<canto>XXI</canto>
+	<cerchio>Ottavo cerchio</cerchio>
+	<personaggi>
+		<persona ref="http://viaf.org/viaf/97105654">Dante</persona>
+		<persona ref="http://viaf.org/viaf/8194433">Virgilio</persona>
+		<persona>Melebranche</persona>
+	</personaggi>
+	<creatore ref="http://viaf.org/viaf/41839207">Gustave Doré</creatore>
+	<data tipo="creazione">1861</data>
+	<luogo tipo="creazione" ref="https://www.geonames.org/2988507">Parigi</luogo>
+	<tecnica ref="http://vocab.getty.edu/aat/300041391">Xilografia</tecnica>
+	<colore>Bianco e nero</colore>
+	<editore ref="http://viaf.org/viaf/159641835">Hachette</editore>
+	<immagine collegamento="immagine21.jpg">canto21</immagine>
+	<pagina collegamento="item21.html21">Item 21</pagina>
+</oggetto>
+<oggetto n="22" xml:id="oggetto22">
+	<canto>XXII</canto>
+	<cerchio>Ottavo cerchio</cerchio>
+	<personaggi>
+		<persona>Melebranche</persona>
+		<persona>Ciampolo</persona>
+	</personaggi>
+	<creatore ref="http://viaf.org/viaf/41839207">Gustave Doré</creatore>
+	<data tipo="creazione">1861</data>
+	<luogo tipo="creazione" ref="https://www.geonames.org/2988507">Parigi</luogo>
+	<tecnica ref="http://vocab.getty.edu/aat/300041391">Xilografia</tecnica>
+	<colore>Bianco e nero</colore>
+	<editore ref="http://viaf.org/viaf/159641835">Hachette</editore>
+	<immagine collegamento="immagine22.jpg">canto22</immagine>
+	<pagina collegamento="item22.html22">Item 22</pagina>
+</oggetto>
+<oggetto n="23" xml:id="oggetto23">
+	<canto>XXIII</canto>
+	<cerchio>Ottavo cerchio</cerchio>
+	<personaggi>
+		<persona ref="http://viaf.org/viaf/97105654">Dante</persona>
+		<persona ref="http://viaf.org/viaf/8194433">Virgilio</persona>
+		<persona>Ipocriti</persona>
+	</personaggi>
+	<creatore ref="http://viaf.org/viaf/41839207">Gustave Doré</creatore>
+	<data tipo="creazione">1861</data>
+	<luogo tipo="creazione" ref="https://www.geonames.org/2988507">Parigi</luogo>
+	<tecnica ref="http://vocab.getty.edu/aat/300041391">Xilografia</tecnica>
+	<colore>Bianco e nero</colore>
+	<editore ref="http://viaf.org/viaf/159641835">Hachette</editore>
+	<immagine collegamento="immagine23.jpg">canto23</immagine>
+	<pagina collegamento="item23.html23">Item 23</pagina>
+</oggetto>
+<oggetto n="24" xml:id="oggetto24">
+	<canto>XXIV</canto>
+	<cerchio>Ottavo cerchio</cerchio>
+	<personaggi>
+		<persona>I ladri</persona>
+	</personaggi>
+	<creatore ref="http://viaf.org/viaf/41839207">Gustave Doré</creatore>
+	<data tipo="creazione">1861</data>
+	<luogo tipo="creazione" ref="https://www.geonames.org/2988507">Parigi</luogo>
+	<tecnica ref="http://vocab.getty.edu/aat/300041391">Xilografia</tecnica>
+	<colore>Bianco e nero</colore>
+	<editore ref="http://viaf.org/viaf/159641835">Hachette</editore>
+	<immagine collegamento="immagine24.jpg">canto24</immagine>
+<pagina collegamento="item24.html24">Item 24</pagina>
+</oggetto>
+<oggetto n="25" xml:id="oggetto25">
+	<canto>XXV</canto>
+	<cerchio>Ottavo cerchio</cerchio>
+	<personaggi>
+		<persona ref="http://viaf.org/viaf/188476461">Cacus</persona>
+	</personaggi>
+	<creatore ref="http://viaf.org/viaf/41839207">Gustave Doré</creatore>
+	<data tipo="creazione">1861</data>
+	<luogo tipo="creazione" ref="https://www.geonames.org/2988507">Parigi</luogo>
+	<tecnica ref="http://vocab.getty.edu/aat/300041391">Xilografia</tecnica>
+	<colore>Bianco e nero</colore>
+	<editore ref="http://viaf.org/viaf/159641835">Hachette</editore>
+	<immagine collegamento="immagine25.jpg">canto25</immagine>
+	<pagina collegamento="item25.html25">Item 25</pagina>
+</oggetto>
+<oggetto n="26" xml:id="oggetto26">
+	<canto>XXVI</canto>
+	<cerchio>Ottavo cerchio</cerchio>
+	<personaggi>
+		<persona ref="http://viaf.org/viaf/97105654">Dante</persona>
+		<persona ref="http://viaf.org/viaf/8194433">Virgilio</persona>
+	</personaggi>
+	<creatore ref="http://viaf.org/viaf/41839207">Gustave Doré</creatore>
+	<data tipo="creazione">1861</data>
+	<luogo tipo="creazione" ref="https://www.geonames.org/2988507">Parigi</luogo>
+	<tecnica ref="http://vocab.getty.edu/aat/300041391">Xilografia</tecnica>
+	<colore>Bianco e nero</colore>
+	<editore ref="http://viaf.org/viaf/159641835">Hachette</editore>
+	<immagine collegamento="immagine26.jpg">canto26</immagine>
+	<pagina collegamento="item26.html26">Item 26</pagina>
+</oggetto>
+<oggetto n="28" xml:id="oggetto28">
+	<canto>XXVIII</canto>
+	<cerchio>Ottavo cerchio</cerchio>
+	<personaggi>
+		<persona ref="http://viaf.org/viaf/97105654">Dante</persona>
+		<persona ref="http://viaf.org/viaf/8194433">Virgilio</persona>
+		<persona ref="http://viaf.org/viaf/7358398">Bertran de Born</persona>
+	</personaggi>
+	<creatore ref="http://viaf.org/viaf/41839207">Gustave Doré</creatore>
+	<data tipo="creazione">1861</data>
+	<luogo tipo="creazione" ref="https://www.geonames.org/2988507">Parigi</luogo>
+	<tecnica ref="http://vocab.getty.edu/aat/300041391">Xilografia</tecnica>
+	<colore>Bianco e nero</colore>
+	<editore ref="http://viaf.org/viaf/159641835">Hachette</editore>
+	<immagine collegamento="immagine28.jpg">canto28</immagine>
+	<pagina collegamento="item28.html28">Item 28</pagina>
+</oggetto>
+<oggetto n="29" xml:id="oggetto29">
+	<canto>XXIX</canto>
+	<cerchio>Ottavo cerchio</cerchio>
+	<personaggi>
+		<persona ref="http://viaf.org/viaf/97105654">Dante</persona>
+		<persona ref="http://viaf.org/viaf/8194433">Virgilio</persona>
+	</personaggi>
+	<creatore ref="http://viaf.org/viaf/41839207">Gustave Doré</creatore>
+	<data tipo="creazione">1861</data>
+	<luogo tipo="creazione" ref="https://www.geonames.org/2988507">Parigi</luogo>
+	<tecnica ref="http://vocab.getty.edu/aat/300041391">Xilografia</tecnica>
+	<colore>Bianco e nero</colore>
+	<editore ref="http://viaf.org/viaf/159641835">Hachette</editore>
+	<immagine collegamento="immagine29.jpg">canto29</immagine>
+<pagina collegamento="item29.html29">Item 29</pagina>
+</oggetto>
+<oggetto n="30" xml:id="oggetto30">
+	<canto>XXX</canto>
+	<cerchio>Ottavo cerchio</cerchio>
+	<personaggi>
+		<persona ref="http://viaf.org/viaf/97105654">Dante</persona>
+		<persona ref="http://viaf.org/viaf/8194433">Virgilio</persona>
+		<persona>Mirra</persona>
+	</personaggi>
+	<creatore ref="http://viaf.org/viaf/41839207">Gustave Doré</creatore>
+	<data tipo="creazione">1861</data>
+	<luogo tipo="creazione" ref="https://www.geonames.org/2988507">Parigi</luogo>
+	<tecnica ref="http://vocab.getty.edu/aat/300041391">Xilografia</tecnica>
+	<colore>Bianco e nero</colore>
+	<editore ref="http://viaf.org/viaf/159641835">Hachette</editore>
+	<immagine collegamento="immagine30.jpg">canto30</immagine>
+<pagina collegamento="item30.html30">Item 30</pagina>
+</oggetto>
+<oggetto n="31" xml:id="oggetto31">
+	<canto>XXXI</canto>
+	<cerchio>Nono cerchio</cerchio>
+	<personaggi>
+		<persona ref="http://viaf.org/viaf/97105654">Dante</persona>
+		<persona ref="http://viaf.org/viaf/8194433">Virgilio</persona>
+		<persona>Anteo</persona>
+	</personaggi>
+	<creatore ref="http://viaf.org/viaf/41839207">Gustave Doré</creatore>
+	<data tipo="creazione">1861</data>
+	<luogo tipo="creazione" ref="https://www.geonames.org/2988507">Parigi</luogo>
+	<tecnica ref="http://vocab.getty.edu/aat/300041391">Xilografia</tecnica>
+	<colore>Bianco e nero</colore>
+	<editore ref="http://viaf.org/viaf/159641835">Hachette</editore>
+	<immagine collegamento="immagine31.jpg">canto31</immagine>
+	<pagina collegamento="item31.html31">Item 31</pagina>
+</oggetto>
+<oggetto n="32" xml:id="oggetto32">
+	<canto>XXXII</canto>
+	<cerchio>Nono cerchio</cerchio>
+	<personaggi>
+		<persona ref="http://viaf.org/viaf/97105654">Dante</persona>
+		<persona ref="http://viaf.org/viaf/8194433">Virgilio</persona>
+	</personaggi>
+	<creatore ref="http://viaf.org/viaf/41839207">Gustave Doré</creatore>
+	<data tipo="creazione">1861</data>
+	<luogo tipo="creazione" ref="https://www.geonames.org/2988507">Parigi</luogo>
+	<tecnica ref="http://vocab.getty.edu/aat/300041391">Xilografia</tecnica>
+	<colore>Bianco e nero</colore>
+	<editore ref="http://viaf.org/viaf/159641835">Hachette</editore>
+	<immagine collegamento="immagine32.jpg">canto32</immagine>
+	<pagina collegamento="item32.html32">Item 32</pagina>
+</oggetto>
+<oggetto n="33" xml:id="oggetto33">
+	<canto>XXXIII</canto>
+	<cerchio>Nono cerchio</cerchio>
+	<personaggi>
+		<persona ref="http://viaf.org/viaf/46685689">Ugolino della Gherardesca</persona>
+		<persona>Figli di Ugolino</persona>
+	</personaggi>
+	<creatore ref="http://viaf.org/viaf/41839207">Gustave Doré</creatore>
+	<data tipo="creazione">1861</data>
+	<luogo tipo="creazione" ref="https://www.geonames.org/2988507">Parigi</luogo>
+	<tecnica ref="http://vocab.getty.edu/aat/300041391">Xilografia</tecnica>
+	<colore>Bianco e nero</colore>
+	<editore ref="http://viaf.org/viaf/159641835">Hachette</editore>
+	<immagine collegamento="immagine33.jpg">canto33</immagine>
+	<pagina collegamento="item33.html33">Item 33</pagina>
+</oggetto>
+<oggetto n="34" xml:id="oggetto34">
+	<canto>XXXIV</canto>
+	<cerchio>Nono cerchio</cerchio>
+	<personaggi>
+		<persona ref="http://viaf.org/viaf/97105654">Dante</persona>
+		<persona ref="http://viaf.org/viaf/8194433">Virgilio</persona>
+	</personaggi>
+	<creatore ref="http://viaf.org/viaf/41839207">Gustave Doré</creatore>
+	<data tipo="creazione">1861</data>
+	<luogo tipo="creazione" ref="https://www.geonames.org/2988507">Parigi</luogo>
+	<tecnica ref="http://vocab.getty.edu/aat/300041391">Xilografia</tecnica>
+	<colore>Bianco e nero</colore>
+	<editore ref="http://viaf.org/viaf/159641835">Hachette</editore>
+	<immagine collegamento="immagine34.jpg">canto34</immagine>
+<pagina collegamento="item34.html34">Item 34</pagina>
+</oggetto>
+</collezione>

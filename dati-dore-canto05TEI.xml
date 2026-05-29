@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+					<title>La Divina Commedia, Inferno, Canto V</title>
+				<respStmt>
+					<resp>editore</resp>
+					<name xml:id="FL">Fabiana Lomoro</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<p>La Divina Commedia con 100 illustrazioni di Gustave Doré, Internet Archive, 2017</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Trascritto da: La Divina Commedia con 100 illustrazioni di Gustave Doré, 1954, Fondazione Casa Oriani. Disponibile su Internet Archive: https://archive.org/details/LaDivinaCommedia</p>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="it">Italiano</language>
+			</langUsage>
+			<textClass>
+				<keywords scheme="http://id.loc.gov/authorities/subjects">
+					<term>Hell in art</term>
+				</keywords>
+				<keywords scheme="https://thes.bncf.firenze.sbn.it">
+					<term>Inferno nella letteratura italiana</term>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="canto" n="5">
+				<head>Canto V</head>
+				<p>Illustrazione relativa al secondo cerchio dell'Inferno, con Paolo e Francesca.</p>
+				<figure>
+					<graphic url="../img/canto05.jpg"/>
+				</figure>
+				<lg type="terzina" n="25" rhyme="aba" met="endecasillabo">
+					<l n="1">I'cominciai: «Poeta, volentieri</l>
+					<l n="2">Parlerei a quei due che 'nsieme vanno,</l>
+					<l n="3">E paio sì al vento esser leggieri.»</l>
+				</lg>
+			</div>
+		</body>
+	</text>
+</TEI>

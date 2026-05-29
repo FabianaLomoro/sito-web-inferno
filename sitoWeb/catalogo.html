@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<meta name="DC.title" content="Catalogo - L'Inferno inciso da Gustave Doré"/>
+	<meta name="DC.Creator" content="Gustave Doré"/>
+	<meta name="DC.Subject" content="Hell in art"/>
+	<meta name="DC.Description" content="Collezione digitale delle illustrazioni dell'Inferno dantesco di Gustave Doré"/>
+	<meta name="DC.Publisher" content="Fabiana Lomoro, Università di Bologna"/>
+	<meta name="DC.Date" content="2026"/>
+	<meta name="DC.Type" content="Image"/>
+	<meta name="DC.Format" content="text/html"/>
+	<meta name="DC.Language" content="it"/>
+	<meta name="DC.Rights" content="Dominio Pubblico"/>
+	<title>Catalogo - L'Inferno inciso di Gustave Doré</title>
+<!--Bootstrap CSS-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+<!--Bootstrap Icons-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+<!--CSS-->
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+			<a class="navbar-brand" href="index.html">L'inferno di Doré</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarContent">
+				<ul class="navbar-nav me-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html"><i class="bi bi-feather"></i>Home</a>
+					</li>
+					<li class="nav-item dropdown active">
+						<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Catalogo</a>
+						<ul class="dropdown-menu">
+							<li><a class="dropdown-item" href="catalogo.html">Lista</a></li>
+							<li><a class="dropdown-item" href="catalogo.html">Persone</a></li>
+							<li><a class="dropdown-item" href="catalogo.html">Cerchi</a></li>
+						</ul>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="dati.html">Dati</a>
+					</li>
+				</ul>
+			</div>
+<!-- barra di ricerca FUORI dal collapse -->
+			<form class="d-flex">
+				<input class="form-control me-2" type="search" placeholder="Cerca">
+			</form>
+		</nav>
+	</header>
+	<main class="pt-2 mt-1">
+		<section class="container-fluid">
+			<div class="row">
+<!--titolo-->
+				<div class="col-md-12 background-nero pb-4 pt-4">
+					<h2 class="text-center">Catalogo</h2>
+				</div>
+<!--aside sinistra-->
+				<div class="col-md-2">
+					<aside>
+<!--breadcrumb-->
+						<nav>
+							<ul class="breadcrumb">
+								<li><a href="index.html">Home</a></li>
+								<li> Catalogo</li>
+							</ul>
+						</nav>
+
+					<hr>
+<!--filtri-->
+					<p><b>Filtra per personaggio</b></p>
+					<ul class="list-unstyled">
+						<li><a href="#">Anteo</a></li>
+						<li><a href="#">Arpie</a></li>
+						<li><a href="#">Betran de Born</a></li>
+						<li><a href="#">Brunetto Latini</a></li>
+						<li><a href="#">Cacus</a></li>
+						<li><a href="#">Capaneo</a></li>
+						<li><a href="#">Caronte</a></li>
+						<li><a href="#">Cerbero</a></li>
+						<li><a href="#">Ciampolo</a></li>
+						<li><a href="#">Dante</a></li>
+						<li><a href="#">Erinni</a></li>
+						<li><a href="#">Farinata degli Uberti</a></li>
+						<li><a href="#">Filippo Argenti</a></li>
+						<li><a href="#">Flegias</a></li>
+						<li><a href="#">Francesca</a></li>
+						<li><a href="#">Gerione</a></li>
+						<li><a href="#">Lucano</a></li>
+						<li><a href="#">Malebranche</a></li>
+						<li><a href="#">Mastro Adamo</a></li>
+						<li><a href="#">Minotauro</a></li>
+						<li><a href="#">Omero</a></li>
+						<li><a href="#">Orazio</a></li>
+						<li><a href="#">Ovidio</a></li>
+						<li><a href="#">Paolo</a></li>
+						<li><a href="#">Pier della Vigna</a></li>
+						<li><a href="#">Pluto</a></li>
+						<li><a href="#">Ugolino della Gherardesca</a></li>
+						<li><a href="#">Virgilio</a></li>
+					</ul>
+					</aside>
+				</div>
+<!--cards-->
+				<div class="col-md-10">
+<!--cerchi-->
+				<ul class="nav nav-tabs mb-4 mt-0">
+					<li class="nav-item"><a class="nav-link active" href="#">Tutti</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">Ante-Inferno</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">I Cerchio</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">II Cerchio</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">III Cerchio</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">IV Cerchio</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">V Cerchio</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">VI Cerchio</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">VII Cerchio</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">VIII Cerchio</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">IX Cerchio</a></li>
+				</ul>
+				<div id="catalogo-items" class="row">
+<!--canto1-->
+					<div class="col-md-3 mb-4">
+						<div class="card h-100">
+							<img src="img/canto01.jpg" class="card-img-top" alt="Illustrazione Canto I">
+							<div class="card-body">
+								<h5 class="card-title">Canto I</h5>
+								<p class="card-text"><b>Cerchio:</b> Ante-Inferno</p>
+								<p class="card-text"><b>Personaggi:</b> Dante</p>
+								<a href="itemI.html" class="btn btn-sm mt-2">Vai all'item</a>
+							</div>
+						</div>		
+					</div>
+<!--canto2-->
+					<div class="col-md-3 mb-4">
+						<div class="card h-100">
+							<img src="img/canto02.jpg" class="card-img-top" alt="Illustrazione Canto II">
+							<div class="card-body">
+								<h5 class="card-title">Canto II</h5>
+								<p class="card-text"><b>Cerchio:</b> Ante-Inferno</p>
+								<p class="card-text"><b>Personaggi:</b> Dante, Virgilio</p>
+								<a href="#" class="btn btn-sm mt-2">Vai all'item</a>
+							</div>
+						</div>		
+					</div>
+<!--canto3-->
+					<div class="col-md-3 mb-4">
+						<div class="card h-100">
+							<img src="img/canto03.jpg" class="card-img-top" alt="Illustrazione Canto III">
+							<div class="card-body">
+								<h5 class="card-title">Canto III</h5>
+								<p class="card-text"><b>Cerchio:</b> Ante-Inferno</p>
+								<p class="card-text"><b>Personaggi:</b> Caronte</p>
+								<a href="#" class="btn btn-sm mt-2">Vai all'item</a>
+							</div>
+						</div>		
+					</div>
+<!--canto4-->
+					<div class="col-md-3 mb-4">
+						<div class="card h-100">
+							<img src="img/canto04.jpg" class="card-img-top" alt="Illustrazione Canto IV">
+							<div class="card-body">
+								<h5 class="card-title">Canto IV</h5>
+								<p class="card-text"><b>Cerchio:</b> Primo cerchio</p>
+								<p class="card-text"><b>Personaggi:</b> Dante, Virgilio, Omero, Orazio, Ovidio, Lucano</p>
+								<a href="#" class="btn btn-sm mt-2">Vai all'item</a>
+							</div>
+						</div>		
+					</div>					
+<!--canto5-->
+					<div class="col-md-3 mb-4">
+						<div class="card h-100">
+							<img src="img/canto05.jpg" class="card-img-top" alt="Illustrazione Canto V">
+							<div class="card-body">
+								<h5 class="card-title">Canto V</h5>
+								<p class="card-text"><b>Cerchio:</b> Secondo cerchio</p>
+								<p class="card-text"><b>Personaggi:</b> Paolo, Francesca</p>
+								<a href="itemV.html" class="btn btn-sm mt-2">Vai all'item</a>
+							</div>
+						</div>		
+					</div>
+<!--canto6-->
+					<div class="col-md-3 mb-4">
+						<div class="card h-100">
+							<img src="img/canto06.jpg" class="card-img-top" alt="Illustrazione Canto VI">
+							<div class="card-body">
+								<h5 class="card-title">Canto VI</h5>
+								<p class="card-text"><b>Cerchio:</b> Terzo cerchio</p>
+								<p class="card-text"><b>Personaggi:</b> Dante, Virgilio, Cerbero</p>
+								<a href="#" class="btn btn-sm mt-2">Vai all'item</a>
+							</div>
+						</div>		
+					</div>
+<!--canto7-->
+					<div class="col-md-3 mb-4">
+						<div class="card h-100">
+							<img src="img/canto07.jpg" class="card-img-top" alt="Illustrazione Canto VII">
+							<div class="card-body">
+								<h5 class="card-title">Canto VII</h5>
+								<p class="card-text"><b>Cerchio:</b> Quarto e quinto cerchio</p>
+								<p class="card-text"><b>Personaggi:</b> Dante, Virgilio, Pluto</p>
+								<a href="#" class="btn btn-sm mt-2">Vai all'item</a>
+							</div>
+						</div>		
+					</div>
+<!--canto8-->
+					<div class="col-md-3 mb-4">
+						<div class="card h-100">
+							<img src="img/canto08.jpg" class="card-img-top" alt="Illustrazione Canto VIII">
+							<div class="card-body">
+								<h5 class="card-title">Canto VIII</h5>
+								<p class="card-text"><b>Cerchio:</b> Quinto cerchio</p>
+								<p class="card-text"><b>Personaggi:</b> Dante, Virgilio, Flegias, Filippo Argenti</p>
+								<a href="#" class="btn btn-sm mt-2">Vai all'item</a>
+							</div>
+						</div>		
+					</div>					
+<!--canto9-->
+					<div class="col-md-3 mb-4">
+						<div class="card h-100">
+							<img src="img/canto09.jpg" class="card-img-top" alt="Illustrazione Canto IX">
+							<div class="card-body">
+								<h5 class="card-title">Canto IX</h5>
+								<p class="card-text"><b>Cerchio:</b> Sesto cerchio</p>
+								<p class="card-text"><b>Personaggi:</b> Dante, Virgilio, Erinni</p>
+								<a href="#" class="btn btn-sm mt-2">Vai all'item</a>
+							</div>
+						</div>		
+					</div>
+<!--canto10-->
+					<div class="col-md-3 mb-4">
+						<div class="card h-100">
+							<img src="img/canto10.jpg" class="card-img-top" alt="Illustrazione Canto X">
+							<div class="card-body">
+								<h5 class="card-title">Canto X</h5>
+								<p class="card-text"><b>Cerchio:</b> Sesto cerchio</p>
+								<p class="card-text"><b>Personaggi:</b> Dante, Virgilio, Farinata degli Uberti</p>
+								<a href="#" class="btn btn-sm mt-2">Vai all'item</a>
+							</div>
+						</div>		
+					</div>
+<!--canto11-->
+					<div class="col-md-3 mb-4">
+						<div class="card h-100">
+							<img src="img/canto11.jpg" class="card-img-top" alt="Illustrazione Canto XI">
+							<div class="card-body">
+								<h5 class="card-title">Canto XI</h5>
+								<p class="card-text"><b>Cerchio:</b> Sesto cerchio</p>
+								<p class="card-text"><b>Personaggi:</b> Dante, Virgilio</p>
+								<a href="#" class="btn btn-sm mt-2">Vai all'item</a>
+							</div>
+						</div>		
+					</div>
+<!--canto12-->
+					<div class="col-md-3 mb-4">
+						<div class="card h-100">
+							<img src="img/canto12.jpg" class="card-img-top" alt="Illustrazione Canto XII">
+							<div class="card-body">
+								<h5 class="card-title">Canto XII</h5>
+								<p class="card-text"><b>Cerchio:</b> Settimo cerchio</p>
+								<p class="card-text"><b>Personaggi:</b> Dante, Virgilio, Minotauro</p>
+								<a href="#" class="btn btn-sm mt-2">Vai all'item</a>
+							</div>
+						</div>		
+					</div>					
+<!--canto13-->
+					<div class="col-md-3 mb-4">
+						<div class="card h-100">
+							<img src="img/canto13.jpg" class="card-img-top" alt="Illustrazione Canto XIII">
+							<div class="card-body">
+								<h5 class="card-title">Canto XIII</h5>
+								<p class="card-text"><b>Cerchio:</b> Settimo cerchio</p>
+								<p class="card-text"><b>Personaggi:</b> Dante, Virgilio, Arpie, Pier della Vigna</p>
+								<a href="#" class="btn btn-sm mt-2">Vai all'item</a>
+							</div>
+						</div>		
+					</div>
+<!--canto14-->
+					<div class="col-md-3 mb-4">
+						<div class="card h-100">
+							<img src="img/canto14.jpg" class="card-img-top" alt="Illustrazione Canto XIV">
+							<div class="card-body">
+								<h5 class="card-title">Canto XIV</h5>
+								<p class="card-text"><b>Cerchio:</b> Settimo cerchio</p>
+								<p class="card-text"><b>Personaggi:</b> Dante, Virgilio, Capaneo</p>
+								<a href="#" class="btn btn-sm mt-2">Vai all'item</a>
+							</div>
+						</div>		
+					</div>
+<!--canto15-->
+					<div class="col-md-3 mb-4">
+						<div class="card h-100">
+							<img src="img/canto15.jpg" class="card-img-top" alt="Illustrazione Canto XV">
+							<div class="card-body">
+								<h5 class="card-title">Canto XV</h5>
+								<p class="card-text"><b>Cerchio:</b> Settimo cerchio</p>
+								<p class="card-text"><b>Personaggi:</b> Dante, Virgilio, Brunetto Latini</p>
+								<a href="#" class="btn btn-sm mt-2">Vai all'item</a>
+							</div>
+						</div>		
+					</div>
+<!--canto17-->
+					<div class="col-md-3 mb-4">
+						<div class="card h-100">
+							<img src="img/canto17.jpg" class="card-img-top" alt="Illustrazione Canto XVII">
+							<div class="card-body">
+								<h5 class="card-title">Canto XVII</h5>
+								<p class="card-text"><b>Cerchio:</b> Settimo cerchio</p>
+								<p class="card-text"><b>Personaggi:</b> Dante, Virgilio, Gerione</p>
+								<a href="#" class="btn btn-sm mt-2">Vai all'item</a>
+							</div>
+						</div>		
+					</div>					
+<!--canto18-->
+					<div class="col-md-3 mb-4">
+						<div class="card h-100">
+							<img src="img/canto18.jpg" class="card-img-top" alt="Illustrazione Canto XVIII">
+							<div class="card-body">
+								<h5 class="card-title">Canto XVIII</h5>
+								<p class="card-text"><b>Cerchio:</b> Ottavo cerchio</p>
+								<p class="card-text"><b>Personaggi:</b> Dante, Virgilio</p>
+								<a href="#" class="btn btn-sm mt-2">Vai all'item</a>
+							</div>
+						</div>		
+					</div>
+<!--canto19-->
+					<div class="col-md-3 mb-4">
+						<div class="card h-100">
+							<img src="img/canto19.jpg" class="card-img-top" alt="Illustrazione Canto XIX">
+							<div class="card-body">
+								<h5 class="card-title">Canto XIX</h5>
+								<p class="card-text"><b>Cerchio:</b> Ottavo cerchio</p>
+								<p class="card-text"><b>Personaggi:</b> Dante, Virgilio</p>
+								<a href="#" class="btn btn-sm mt-2">Vai all'item</a>
+							</div>
+						</div>		
+					</div>
+<!--canto21-->
+					<div class="col-md-3 mb-4">
+						<div class="card h-100">
+							<img src="img/canto21.jpg" class="card-img-top" alt="Illustrazione Canto XXI">
+							<div class="card-body">
+								<h5 class="card-title">Canto XXI</h5>
+								<p class="card-text"><b>Cerchio:</b> Ottavo cerchio</p>
+								<p class="card-text"><b>Personaggi:</b> Dante, Virgilio, Malebranche</p>
+								<a href="#" class="btn btn-sm mt-2">Vai all'item</a>
+							</div>
+						</div>		
+					</div>
+<!--canto22-->
+					<div class="col-md-3 mb-4">
+						<div class="card h-100">
+							<img src="img/canto22.jpg" class="card-img-top" alt="Illustrazione Canto XXII">
+							<div class="card-body">
+								<h5 class="card-title">Canto XXII</h5>
+								<p class="card-text"><b>Cerchio:</b> Ottavo cerchio</p>
+								<p class="card-text"><b>Personaggi:</b> Malebranche, Ciampolo</p>
+								<a href="#" class="btn btn-sm mt-2">Vai all'item</a>
+							</div>
+						</div>		
+					</div>					
+<!--canto23-->
+					<div class="col-md-3 mb-4">
+						<div class="card h-100">
+							<img src="img/canto23.jpg" class="card-img-top" alt="Illustrazione Canto XXIII">
+							<div class="card-body">
+								<h5 class="card-title">Canto XXIII</h5>
+								<p class="card-text"><b>Cerchio:</b> Ottavo cerchio</p>
+								<p class="card-text"><b>Personaggi:</b> Dante, Virgilio, Ipocriti</p>
+								<a href="#" class="btn btn-sm mt-2">Vai all'item</a>
+							</div>
+						</div>		
+					</div>
+<!--canto24-->
+					<div class="col-md-3 mb-4">
+						<div class="card h-100">
+							<img src="img/canto24.jpg" class="card-img-top" alt="Illustrazione Canto XXIV">
+							<div class="card-body">
+								<h5 class="card-title">Canto XXIV</h5>
+								<p class="card-text"><b>Cerchio:</b> Ottavo cerchio</p>
+								<p class="card-text"><b>Personaggi:</b> I ladri</p>
+								<a href="#" class="btn btn-sm mt-2">Vai all'item</a>
+							</div>
+						</div>		
+					</div>
+<!--canto25-->
+					<div class="col-md-3 mb-4">
+						<div class="card h-100">
+							<img src="img/canto25.jpg" class="card-img-top" alt="Illustrazione Canto XXV">
+							<div class="card-body">
+								<h5 class="card-title">Canto XXV</h5>
+								<p class="card-text"><b>Cerchio:</b> Ottavo cerchio</p>
+								<p class="card-text"><b>Personaggi:</b> Cacus</p>
+								<a href="#" class="btn btn-sm mt-2">Vai all'item</a>
+							</div>
+						</div>		
+					</div>
+<!--canto26-->
+					<div class="col-md-3 mb-4">
+						<div class="card h-100">
+							<img src="img/canto26.jpg" class="card-img-top" alt="Illustrazione Canto XXVI">
+							<div class="card-body">
+								<h5 class="card-title">Canto XXVI</h5>
+								<p class="card-text"><b>Cerchio:</b> Ottavo cerchio</p>
+								<p class="card-text"><b>Personaggi:</b> Dante, Virgilio</p>
+								<a href="#" class="btn btn-sm mt-2">Vai all'item</a>
+							</div>
+						</div>		
+					</div>					
+<!--canto28-->
+					<div class="col-md-3 mb-4">
+						<div class="card h-100">
+							<img src="img/canto28.jpg" class="card-img-top" alt="Illustrazione Canto XXVIII">
+							<div class="card-body">
+								<h5 class="card-title">Canto XXVIII</h5>
+								<p class="card-text"><b>Cerchio:</b> Ottavo cerchio</p>
+								<p class="card-text"><b>Personaggi:</b> Dante, Virgilio, Bertran de Born</p>
+								<a href="#" class="btn btn-sm mt-2">Vai all'item</a>
+							</div>
+						</div>		
+					</div>
+<!--canto29-->
+					<div class="col-md-3 mb-4">
+						<div class="card h-100">
+							<img src="img/canto29.jpg" class="card-img-top" alt="Illustrazione Canto XXIX">
+							<div class="card-body">
+								<h5 class="card-title">Canto XXIX</h5>
+								<p class="card-text"><b>Cerchio:</b> Ottavo cerchio</p>
+								<p class="card-text"><b>Personaggi:</b> Dante, Virgilio</p>
+								<a href="#" class="btn btn-sm mt-2">Vai all'item</a>
+							</div>
+						</div>		
+					</div>
+<!--canto30-->
+					<div class="col-md-3 mb-4">
+						<div class="card h-100">
+							<img src="img/canto30.jpg" class="card-img-top" alt="Illustrazione Canto XXX">
+							<div class="card-body">
+								<h5 class="card-title">Canto XXX</h5>
+								<p class="card-text"><b>Cerchio:</b> Ottavo cerchio</p>
+								<p class="card-text"><b>Personaggi:</b> Dante, Virgilio, Mastro Adamo</p>
+								<a href="#" class="btn btn-sm mt-2">Vai all'item</a>
+							</div>
+						</div>		
+					</div>
+<!--canto31-->
+					<div class="col-md-3 mb-4">
+						<div class="card h-100">
+							<img src="img/canto31.jpg" class="card-img-top" alt="Illustrazione Canto XXXI">
+							<div class="card-body">
+								<h5 class="card-title">Canto XXXI</h5>
+								<p class="card-text"><b>Cerchio:</b> Nono cerchio</p>
+								<p class="card-text"><b>Personaggi:</b> Dante, Virgilio, Anteo</p>
+								<a href="#" class="btn btn-sm mt-2">Vai all'item</a>
+							</div>
+						</div>		
+					</div>					
+<!--canto32-->
+					<div class="col-md-3 mb-4">
+						<div class="card h-100">
+							<img src="img/canto32.jpg" class="card-img-top" alt="Illustrazione Canto XXXII">
+							<div class="card-body">
+								<h5 class="card-title">Canto XXXII</h5>
+								<p class="card-text"><b>Cerchio:</b> Nono cerchio</p>
+								<p class="card-text"><b>Personaggi:</b> Dante, Virgilio</p>
+								<a href="#" class="btn btn-sm mt-2">Vai all'item</a>
+							</div>
+						</div>		
+					</div>
+<!--canto33-->
+					<div class="col-md-3 mb-4">
+						<div class="card h-100">
+							<img src="img/canto33.jpg" class="card-img-top" alt="Illustrazione Canto XXXIII">
+							<div class="card-body">
+								<h5 class="card-title">Canto XXXIII</h5>
+								<p class="card-text"><b>Cerchio:</b> Nono cerchio</p>
+								<p class="card-text"><b>Personaggi:</b> Ugolino della Gherardesca, Figli di Ugolino</p>
+								<a href="#" class="btn btn-sm mt-2">Vai all'item</a>
+							</div>
+						</div>		
+					</div>
+<!--canto34-->
+					<div class="col-md-3 mb-4">
+						<div class="card h-100">
+							<img src="img/canto34.jpg" class="card-img-top" alt="Illustrazione Canto XXXIV">
+							<div class="card-body">
+								<h5 class="card-title">Canto XXXIV</h5>
+								<p class="card-text"><b>Cerchio:</b> Nono cerchio</p>
+								<p class="card-text"><b>Personaggi:</b> Dante, Virgilio</p>
+								<a href="itemXXXIV.html" class="btn btn-sm mt-2">Vai all'item</a>
+							</div>
+						</div>		
+					</div>
+
+					</div>
+				</div>
+			</div>
+		</section>
+		</main>
+		<footer>
+			<div class="container-fluid pb-3 pt-3 background-nero">
+					<div class="container">
+						<p class="mb-0 pb-1 text-center">Credits | Licenze |<a href="dati.html">Dati</a></p>
+					</div>
+				</div>
+				<div class="container-fluid pb-3 pt-3 background-nero">
+					<p class="mb-0 pb-1 text-center">&copy; Copyright (c) 2026 <em>Fabiana Lomoro</em>
+					Università di Bologna</p> 
+				</div>
+		</footer>
+<!--script Bootstrap-->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+

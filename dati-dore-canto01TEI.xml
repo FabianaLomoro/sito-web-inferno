@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+					<title>La Divina Commedia, Inferno, Canto I</title>
+				<respStmt>
+					<resp>editore</resp>
+					<name xml:id="FL">Fabiana Lomoro</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<p>La Divina Commedia con 100 illustrazioni di Gustave Doré, Internet Archive, 2017</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Trascritto da: La Divina Commedia con 100 illustrazioni di Gustave Doré, 1954, Fondazione Casa Oriani. Disponibile su Internet Archive: https://archive.org/details/LaDivinaCommedia</p>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="it">Italiano</language>
+			</langUsage>
+			<textClass>
+				<keywords scheme="http://id.loc.gov/authorities/subjects">
+					<term>Hell in art</term>
+				</keywords>
+				<keywords scheme="https://thes.bncf.firenze.sbn.it">
+					<term>Inferno nella letteratura italiana</term>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="canto" n="1">
+				<head>Canto I</head>
+				<p>Illustrazione relativa all'incipit dell'Inferno dantesco.</p>
+				<figure>
+					<graphic url="../img/canto01.jpg"/>
+				</figure>
+				<lg type="terzina" n="1" rhyme="aba" met="endecasillabo">
+					<l n="1">Nel mezzo del cammin di nostra vita</l>
+					<l n="2">Mi ritrovai per una selva oscura,</l>
+					<l n="3">Ché la diritta via era smarrita.</l>
+				</lg>
+			</div>
+		</body>
+	</text>
+</TEI>

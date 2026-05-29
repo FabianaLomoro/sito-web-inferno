@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+					<title>La Divina Commedia, Inferno, Canto V</title>
+				<respStmt>
+					<resp>editore</resp>
+					<name xml:id="FL">Fabiana Lomoro</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<p>La Divina Commedia con 100 illustrazioni di Gustave Doré, Internet Archive, 2017</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Trascritto da: La Divina Commedia con 100 illustrazioni di Gustave Doré, 1954, Fondazione Casa Oriani. Disponibile su Internet Archive: https://archive.org/details/LaDivinaCommedia</p>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="it">Italiano</language>
+			</langUsage>
+			<textClass>
+				<keywords scheme="http://id.loc.gov/authorities/subjects">
+					<term>Hell in art</term>
+				</keywords>
+				<keywords scheme="https://thes.bncf.firenze.sbn.it">
+					<term>Inferno nella letteratura italiana</term>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="canto" n="34">
+				<head>Canto XXXIV</head>
+				<p>Illustrazione relativa alla conclusione dell'Inferno, con Dante e Virgilio che emergono alla luce delle stelle.</p>
+				<figure>
+					<graphic url="../img/canto34.jpg"/>
+				</figure>
+				<lg type="terzina" n="46" rhyme="aba" met="endecasillabo">
+					<l n="1">Tanto ch'i' vidi de le cose belle</l>
+					<l n="2">Che porta 'l ciel, per un pertugio tondo:</l>
+					<l n="3">E quindi uscimmo a riveder le stelle.</l>
+				</lg>
+			</div>
+		</body>
+	</text>
+</TEI>

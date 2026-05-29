@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<meta name="DC.title" content="Dati - L'Inferno inciso da Gustave Doré"/>
+	<meta name="DC.Creator" content="Gustave Doré"/>
+	<meta name="DC.Subject" content="Hell in art"/>
+	<meta name="DC.Description" content="Collezione digitale delle illustrazioni dell'Inferno dantesco di Gustave Doré"/>
+	<meta name="DC.Publisher" content="Fabiana Lomoro, Università di Bologna"/>
+	<meta name="DC.Date" content="2026"/>
+	<meta name="DC.Type" content="Image"/>
+	<meta name="DC.Format" content="text/html"/>
+	<meta name="DC.Language" content="it"/>
+	<meta name="DC.Rights" content="Dominio Pubblico"/>
+	<title>Dati - L'Inferno inciso di Gustave Doré</title>
+<!--Bootstrap CSS-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+<!--Bootstrap Icons-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+<!--CSS-->
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+			<a class="navbar-brand" href="index.html">L'inferno di Doré</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarContent">
+				<ul class="navbar-nav me-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html"><i class="bi bi-feather"></i>Home</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Catalogo</a>
+						<ul class="dropdown-menu">
+							<li><a class="dropdown-item" href="catalogo.html">Lista</a></li>
+							<li><a class="dropdown-item" href="catalogo.html">Persone</a></li>
+							<li><a class="dropdown-item" href="catalogo.html">Cerchi</a></li>
+						</ul>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="dati.html">Dati</a>
+					</li>
+				</ul>
+			</div>
+<!-- barra di ricerca FUORI dal collapse -->
+			<form class="d-flex">
+				<input class="form-control me-2" type="search" placeholder="Cerca">
+			</form>
+		</nav>
+	</header>
+	<main class="pt-2 mt-1">
+		<section class="container-fluid">
+		<div class="row">
+<!--titolo-->
+		<div class="col-md-12 pb-4 pt-4">
+			<h2 class="text-center">Dati</h2>
+		</div>
+<!--aside sinistra-->
+		<div class="col-md-2 mt-2">
+			<aside>
+				<nav>
+					<ul class="breadcrumb">
+						<li><a href="index.html">Home</a></li>
+						<li> Dati</li>
+					</ul>
+				</nav>
+
+				<hr>
+
+				<p class="mt-3"><b>Scarica i dati:</b></p>
+					<ul class="list-unstyled">
+						<li><a href="../dati-dore.json" target="_blank">JSON</a></li>
+						<li><a href="../dati-dore.csv" target="_blank">CSV</a></li>
+					</ul>
+			</aside>
+		</div>	
+<!--tabella-->
+		<div class="col-md-10 mt-2 px-5">
+			<table class="table table-bordered mx-auto tabella-dati">
+				<thead>
+					<tr>
+						<th>Identificativo</th>
+						<th>Canto</th>
+						<th>Cerchio</th>
+						<th>Personaggi</th>
+						<th>Creatore</th>
+						<th>Data</th>
+						<th>Luogo</th>
+						<th>Tecnica</th>
+						<th>Editore</th>
+						<th>Fonte</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Oggetto 1</td>
+						<td>I</td>
+						<td>Ante-Inferno</td>
+						<td><a href="http://viaf.org/viaf/97105654" target="_blank">Dante</a><sup>VIAF</sup></td>
+						<td><a href="http://viaf.org/viaf/41839207" target="_blank">Gustave Doré</a><sup>VIAF</sup></td>
+						<td>1861</td>
+						<td><a href="https://www.geonames.org/2988507" target="_blank">Parigi</a><sup>GeoNames</sup></td>
+						<td><a href="http://vocab.getty.edu/aat/300041391" target="_blank">Xilografia</a><sup>AAT</sup></td>
+						<td><a href="http://viaf.org/viaf/159641835" target="_blank">Hachette</a><sup>VIAF</sup></td>
+						<td><a href="https://commons.wikimedia.org/wiki/File:DVinfernoDuskyWood_m.jpg" target="_blank">Wikimedia Commons</a></td>
+					</tr>
+					<tr>
+						<td>Oggetto 2</td>
+						<td>II</td>
+						<td>Ante-Inferno</td>
+						<td>
+							<a href="http://viaf.org/viaf/97105654" target="_blank">Dante</a><sup>VIAF</sup>
+							<a href="http://viaf.org/viaf/8194433" target="_blank">Virgilio</a><sup>VIAF</sup>
+						</td>
+						<td><a href="http://viaf.org/viaf/41839207" target="_blank">Gustave Doré</a><sup>VIAF</sup></td>
+						<td>1861</td>
+						<td><a href="https://www.geonames.org/2988507" target="_blank">Parigi</a><sup>GeoNames</sup></td>
+						<td><a href="http://vocab.getty.edu/aat/300041391" target="_blank">Xilografia</a><sup>AAT</sup></td>
+						<td><a href="http://viaf.org/viaf/159641835" target="_blank">Hachette</a><sup>VIAF</sup></td>
+						<td><a href="https://commons.wikimedia.org/wiki/File:DVinfernoDarkeningSky_m.jpg#/media/File:DVinfernoDarkeningSky_m.jpg" target="_blank">Wikimedia Commons</a></td>
+					</tr>
+					<tr>
+						<td>Oggetto 3</td>
+						<td>III</td>
+						<td>Ante-Inferno</td>
+						<td>Caronte</td>
+						<td><a href="http://viaf.org/viaf/41839207" target="_blank">Gustave Doré</a><sup>VIAF</sup></td>
+						<td>1861</td>
+						<td><a href="https://www.geonames.org/2988507" target="_blank">Parigi</a><sup>GeoNames</sup></td>
+						<td><a href="http://vocab.getty.edu/aat/300041391" target="_blank">Xilografia</a><sup>AAT</sup></td>
+						<td><a href="http://viaf.org/viaf/159641835" target="_blank">Hachette</a><sup>VIAF</sup></td>
+						<td><a href="https://commons.wikimedia.org/wiki/File:Charon_by_Dore.jpg" target="_blank">Wikimedia Commons</a></td>
+					</tr>
+					<tr>
+						<td>Oggetto 4</td>
+						<td>IV</td>
+						<td>Primo cerchio</td>
+						<td>
+							<a href="http://viaf.org/viaf/97105654" target="_blank">Dante</a><sup>VIAF</sup>
+							<a href="http://viaf.org/viaf/8194433" target="_blank">Virgilio</a><sup>VIAF</sup>
+							<a href="http://viaf.org/viaf/224924963" target="_blank">Omero</a><sup>VIAF</sup>
+							<a href="http://viaf.org/viaf/100227522" target="_blank">Orazio</a><sup>VIAF</sup>
+							<a href="http://viaf.org/viaf/88342447" target="_blank">Ovidio</a><sup>VIAF</sup>
+							<a href="http://viaf.org/viaf/100902938" target="_blank">Lucano</a><sup>VIAF</sup>
+						</td>
+						<td><a href="http://viaf.org/viaf/41839207" target="_blank">Gustave Doré</a><sup>VIAF</sup></td>
+						<td>1861</td>
+						<td><a href="https://www.geonames.org/2988507" target="_blank">Parigi</a><sup>GeoNames</sup></td>
+						<td><a href="http://vocab.getty.edu/aat/300041391" target="_blank">Xilografia</a><sup>AAT</sup></td>
+						<td><a href="http://viaf.org/viaf/159641835" target="_blank">Hachette</a><sup>VIAF</sup></td>
+						<td><a href="https://commons.wikimedia.org/wiki/File:DVinfernoHomerClassicPoets_m.jpg" target="_blank">Wikimedia Commons</a></td>
+					</tr>
+					<tr>
+						<td>Oggetto 5</td>
+						<td>V</td>
+						<td>Secondo cerchio</td>
+						<td>
+							<a href="http://viaf.org/viaf/35385230" target="_blank">Paolo</a><sup>VIAF</sup>
+							<a href="http://viaf.org/viaf/55527538" target="_blank">Francesca</a><sup>VIAF</sup>
+						</td>
+						<td><a href="http://viaf.org/viaf/41839207" target="_blank">Gustave Doré</a><sup>VIAF</sup></td>
+						<td>1861</td>
+						<td><a href="https://www.geonames.org/2988507" target="_blank">Parigi</a><sup>GeoNames</sup></td>
+						<td><a href="http://vocab.getty.edu/aat/300041391" target="_blank">Xilografia</a><sup>AAT</sup></td>
+						<td><a href="http://viaf.org/viaf/159641835" target="_blank">Hachette</a><sup>VIAF</sup></td>
+						<td><a href="https://commons.wikimedia.org/wiki/File:Dore_Gustave_Francesca_and_Paolo_da_Rimini_Canto_5_73-75.jpg" target="_blank">Wikimedia Commons</a></td>
+					</tr>
+					<tr>
+						<td>Oggetto 6</td>
+						<td>VI</td>
+						<td>Terzo cerchio</td>
+						<td>
+							<a href="http://viaf.org/viaf/97105654" target="_blank">Dante</a><sup>VIAF</sup>
+							<a href="http://viaf.org/viaf/8194433" target="_blank">Virgilio</a><sup>VIAF</sup>
+							<a href="http://viaf.org/viaf/187590159" target="_blank">Cerbero</a><sup>VIAF</sup>
+						</td>
+						<td><a href="http://viaf.org/viaf/41839207" target="_blank">Gustave Doré</a><sup>VIAF</sup></td>
+						<td>1861</td>
+						<td><a href="https://www.geonames.org/2988507" target="_blank">Parigi</a><sup>GeoNames</sup></td>
+						<td><a href="http://vocab.getty.edu/aat/300041391" target="_blank">Xilografia</a><sup>AAT</sup></td>
+						<td><a href="http://viaf.org/viaf/159641835" target="_blank">Hachette</a><sup>VIAF</sup></td>
+						<td><a href="https://commons.wikimedia.org/wiki/File:Inferno_Canto_6_-_Cerberus_(148618330).jpg" target="_blank">Wikimedia Commons</a></td>
+					</tr>
+					<tr>
+						<td>Oggetto 7</td>
+						<td>VII</td>
+						<td>Quarto e quinto cerchio</td>
+						<td>
+							<a href="http://viaf.org/viaf/97105654" target="_blank">Dante</a><sup>VIAF</sup>
+							<a href="http://viaf.org/viaf/8194433" target="_blank">Virgilio</a><sup>VIAF</sup>
+							Pluto
+						</td>
+						<td><a href="http://viaf.org/viaf/41839207" target="_blank">Gustave Doré</a><sup>VIAF</sup></td>
+						<td>1861</td>
+						<td><a href="https://www.geonames.org/2988507" target="_blank">Parigi</a><sup>GeoNames</sup></td>
+						<td><a href="http://vocab.getty.edu/aat/300041391" target="_blank">Xilografia</a><sup>AAT</sup></td>
+						<td><a href="http://viaf.org/viaf/159641835" target="_blank">Hachette</a><sup>VIAF</sup></td>
+						<td><a href="https://commons.wikimedia.org/wiki/File:Dore_Gustave_21_Curs-d_wolf_thy_fury_inward_on_thyself_prey_and_consume_thee.jpg" target="_blank">Wikimedia Commons</a></td>
+					</tr>
+					<tr>
+						<td>Oggetto 8</td>
+						<td>VIII</td>
+						<td>Quinto cerchio</td>
+						<td>
+							<a href="http://viaf.org/viaf/97105654" target="_blank">Dante</a><sup>VIAF</sup>
+							<a href="http://viaf.org/viaf/8194433" target="_blank">Virgilio</a><sup>VIAF</sup>
+							Flegias
+							<a href="http://viaf.org/viaf/388159474310227662338" target="_blank">Filippo Argenti</a><sup>VIAF</sup>
+						</td>
+						<td><a href="http://viaf.org/viaf/41839207" target="_blank">Gustave Doré</a><sup>VIAF</sup></td>
+						<td>1861</td>
+						<td><a href="https://www.geonames.org/2988507" target="_blank">Parigi</a><sup>GeoNames</sup></td>
+						<td><a href="http://vocab.getty.edu/aat/300041391" target="_blank">Xilografia</a><sup>AAT</sup></td>
+						<td><a href="http://viaf.org/viaf/159641835" target="_blank">Hachette</a><sup>VIAF</sup></td>
+						<td><a href="https://commons.wikimedia.org/wiki/File:DVinfernoFerryAcrossTheStyx_m.jpg" target="_blank">Wikimedia Commons</a></td>
+					</tr>
+					<tr>
+						<td>Oggetto 9</td>
+						<td>IX</td>
+						<td>Sesto cerchio</td>
+						<td>
+							<a href="http://viaf.org/viaf/97105654" target="_blank">Dante</a><sup>VIAF</sup>
+							<a href="http://viaf.org/viaf/8194433" target="_blank">Virgilio</a><sup>VIAF</sup>
+							Erinni
+						</td>
+						<td><a href="http://viaf.org/viaf/41839207" target="_blank">Gustave Doré</a><sup>VIAF</sup></td>
+						<td>1861</td>
+						<td><a href="https://www.geonames.org/2988507" target="_blank">Parigi</a><sup>GeoNames</sup></td>
+						<td><a href="http://vocab.getty.edu/aat/300041391" target="_blank">Xilografia</a><sup>AAT</sup></td>
+						<td><a href="http://viaf.org/viaf/159641835" target="_blank">Hachette</a><sup>VIAF</sup></td>
+						<td><a href="https://commons.wikimedia.org/wiki/File:DVinfernoMegaeraTisifphoneAlecto_m.jpg" target="_blank">Wikimedia Commons</a></td>
+					</tr>
+					<tr>
+						<td>Oggetto 10</td>
+						<td>X</td>
+						<td>Sesto cerchio</td>
+						<td>
+							<a href="http://viaf.org/viaf/97105654" target="_blank">Dante</a><sup>VIAF</sup>
+							<a href="http://viaf.org/viaf/8194433" target="_blank">Virgilio</a><sup>VIAF</sup>
+							<a href="http://viaf.org/viaf/22073869" target="_blank">Farinata degli Uberti</a><sup>VIAF</sup>
+						</td>
+						<td><a href="http://viaf.org/viaf/41839207" target="_blank">Gustave Doré</a><sup>VIAF</sup></td>
+						<td>1861</td>
+						<td><a href="https://www.geonames.org/2988507" target="_blank">Parigi</a><sup>GeoNames</sup></td>
+						<td><a href="http://vocab.getty.edu/aat/300041391" target="_blank">Xilografia</a><sup>AAT</sup></td>
+						<td><a href="http://viaf.org/viaf/159641835" target="_blank">Hachette</a><sup>VIAF</sup></td>
+						<td><a href="https://commons.wikimedia.org/wiki/File:Dore_woodcut_Divine_Comedy_01.jpg" target="_blank">Wikimedia Commons</a></td>
+					</tr>
+					<tr>
+						<td>Oggetto 11</td>
+						<td>XI</td>
+						<td>Sesto cerchio</td>
+						<td>
+							<a href="http://viaf.org/viaf/97105654" target="_blank">Dante</a><sup>VIAF</sup>
+							<a href="http://viaf.org/viaf/8194433" target="_blank">Virgilio</a><sup>VIAF</sup>
+						</td>
+						<td><a href="http://viaf.org/viaf/41839207" target="_blank">Gustave Doré</a><sup>VIAF</sup></td>
+						<td>1861</td>
+						<td><a href="https://www.geonames.org/2988507" target="_blank">Parigi</a><sup>GeoNames</sup></td>
+						<td><a href="http://vocab.getty.edu/aat/300041391" target="_blank">Xilografia</a><sup>AAT</sup></td>
+						<td><a href="http://viaf.org/viaf/159641835" target="_blank">Hachette</a><sup>VIAF</sup></td>
+						<td><a href="https://commons.wikimedia.org/wiki/File:Inferno_Canto_11_verses_6-7.jpg" target="_blank">Wikimedia Commons</a></td>
+					</tr>
+					<tr>
+						<td>Oggetto 12</td>
+						<td>XII</td>
+						<td>Settimo cerchio</td>
+						<td>
+							<a href="http://viaf.org/viaf/97105654" target="_blank">Dante</a><sup>VIAF</sup>
+							<a href="http://viaf.org/viaf/8194433" target="_blank">Virgilio</a><sup>VIAF</sup>
+							<a href="http://viaf.org/viaf/88150030542310960353" target="_blank">Minotauro</a><sup>VIAF</sup>
+						</td>
+						<td><a href="http://viaf.org/viaf/41839207" target="_blank">Gustave Doré</a><sup>VIAF</sup></td>
+						<td>1861</td>
+						<td><a href="https://www.geonames.org/2988507" target="_blank">Parigi</a><sup>GeoNames</sup></td>
+						<td><a href="http://vocab.getty.edu/aat/300041391" target="_blank">Xilografia</a><sup>AAT</sup></td>
+						<td><a href="http://viaf.org/viaf/159641835" target="_blank">Hachette</a><sup>VIAF</sup></td>
+						<td><a href="https://commons.wikimedia.org/wiki/File:DVinfernoMinotaurOnCliff_m.jpg" target="_blank">Wikimedia Commons</a></td>
+					</tr>
+					<tr>
+						<td>Oggetto 13</td>
+						<td>XIII</td>
+						<td>Settimo cerchio</td>
+						<td>
+							<a href="http://viaf.org/viaf/97105654" target="_blank">Dante</a><sup>VIAF</sup>
+							<a href="http://viaf.org/viaf/8194433" target="_blank">Virgilio</a><sup>VIAF</sup>
+							Arpie
+							<a href="http://viaf.org/viaf/122196429" target="_blank">Pier della Vigna</a><sup>VIAF</sup>
+						</td>
+						<td><a href="http://viaf.org/viaf/41839207" target="_blank">Gustave Doré</a><sup>VIAF</sup></td>
+						<td>1861</td>
+						<td><a href="https://www.geonames.org/2988507" target="_blank">Parigi</a><sup>GeoNames</sup></td>
+						<td><a href="http://vocab.getty.edu/aat/300041391" target="_blank">Xilografia</a><sup>AAT</sup></td>
+						<td><a href="http://viaf.org/viaf/159641835" target="_blank">Hachette</a><sup>VIAF</sup></td>
+						<td><a href="https://commons.wikimedia.org/wiki/File:Gustave_Dor%C3%A9_-_The_Inferno,_Canto_13.jpg" target="_blank">Wikimedia Commons</a></td>
+					</tr>
+					<tr>
+						<td>Oggetto 14</td>
+						<td>XIV</td>
+						<td>Settimo cerchio</td>
+						<td>
+							<a href="http://viaf.org/viaf/97105654" target="_blank">Dante</a><sup>VIAF</sup>
+							<a href="http://viaf.org/viaf/8194433" target="_blank">Virgilio</a><sup>VIAF</sup>
+							Capaneo
+						</td>
+						<td><a href="http://viaf.org/viaf/41839207" target="_blank">Gustave Doré</a><sup>VIAF</sup></td>
+						<td>1861</td>
+						<td><a href="https://www.geonames.org/2988507" target="_blank">Parigi</a><sup>GeoNames</sup></td>
+						<td><a href="http://vocab.getty.edu/aat/300041391" target="_blank">Xilografia</a><sup>AAT</sup></td>
+						<td><a href="http://viaf.org/viaf/159641835" target="_blank">Hachette</a><sup>VIAF</sup></td>
+						<td><a href="https://commons.wikimedia.org/wiki/File:DVinfernoViolentInRainOfFire_m.jpg" target="_blank">Wikimedia Commons</a></td>
+					</tr>
+					<tr>
+						<td>Oggetto 15</td>
+						<td>XV</td>
+						<td>Settimo cerchio</td>
+						<td>
+							<a href="http://viaf.org/viaf/97105654" target="_blank">Dante</a><sup>VIAF</sup>
+							<a href="http://viaf.org/viaf/8194433" target="_blank">Virgilio</a><sup>VIAF</sup>
+							<a href="http://viaf.org/viaf/19680057" target="_blank">Brunetto Latini</a><sup>VIAF</sup>
+						</td>
+						<td><a href="http://viaf.org/viaf/41839207" target="_blank">Gustave Doré</a><sup>VIAF</sup></td>
+						<td>1861</td>
+						<td><a href="https://www.geonames.org/2988507" target="_blank">Parigi</a><sup>GeoNames</sup></td>
+						<td><a href="http://vocab.getty.edu/aat/300041391" target="_blank">Xilografia</a><sup>AAT</sup></td>
+						<td><a href="http://viaf.org/viaf/159641835" target="_blank">Hachette</a><sup>VIAF</sup></td>
+						<td><a href="https://commons.wikimedia.org/wiki/File:DVinfernoBrunettoLatiniAccostsDante_m.jpg" target="_blank">Wikimedia Commons</a></td>
+					</tr>
+					<tr>
+						<td>Oggetto 17</td>
+						<td>XVII</td>
+						<td>Settimo cerchio</td>
+						<td>
+							<a href="http://viaf.org/viaf/97105654" target="_blank">Dante</a><sup>VIAF</sup>
+							<a href="http://viaf.org/viaf/8194433" target="_blank">Virgilio</a><sup>VIAF</sup>
+							<a href="http://viaf.org/viaf/179289917" target="_blank">Gerione</a><sup>VIAF</sup>
+						</td>
+						<td><a href="http://viaf.org/viaf/41839207" target="_blank">Gustave Doré</a><sup>VIAF</sup></td>
+						<td>1861</td>
+						<td><a href="https://www.geonames.org/2988507" target="_blank">Parigi</a><sup>GeoNames</sup></td>
+						<td><a href="http://vocab.getty.edu/aat/300041391" target="_blank">Xilografia</a><sup>AAT</sup></td>
+						<td><a href="http://viaf.org/viaf/159641835" target="_blank">Hachette</a><sup>VIAF</sup></td>
+						<td><a href="https://commons.wikimedia.org/wiki/File:DVinfernoIntoAbyssOnGeryonsBack_m.jpg" target="_blank">Wikimedia Commons</a></td>
+					</tr>
+					<tr>
+						<td>Oggetto 18</td>
+						<td>XVIII</td>
+						<td>Ottavo cerchio</td>
+						<td>
+							<a href="http://viaf.org/viaf/97105654" target="_blank">Dante</a><sup>VIAF</sup>
+							<a href="http://viaf.org/viaf/8194433" target="_blank">Virgilio</a><sup>VIAF</sup>
+						</td>
+						<td><a href="http://viaf.org/viaf/41839207" target="_blank">Gustave Doré</a><sup>VIAF</sup></td>
+						<td>1861</td>
+						<td><a href="https://www.geonames.org/2988507" target="_blank">Parigi</a><sup>GeoNames</sup></td>
+						<td><a href="http://vocab.getty.edu/aat/300041391" target="_blank">Xilografia</a><sup>AAT</sup></td>
+						<td><a href="http://viaf.org/viaf/159641835" target="_blank">Hachette</a><sup>VIAF</sup></td>
+						<td><a href="https://commons.wikimedia.org/wiki/File:DVinfernoShadeOfThais_m.jpg#/media/File:DVinfernoShadeOfThais_m.jpg" target="_blank">Wikimedia Commons</a></td>
+					</tr>
+					<tr>
+						<td>Oggetto 19</td>
+						<td>XIX</td>
+						<td>Ottavo cerchio</td>
+						<td>
+							<a href="http://viaf.org/viaf/97105654" target="_blank">Dante</a><sup>VIAF</sup>
+							<a href="http://viaf.org/viaf/8194433" target="_blank">Virgilio</a><sup>VIAF</sup>
+						</td>
+						<td><a href="http://viaf.org/viaf/41839207" target="_blank">Gustave Doré</a><sup>VIAF</sup></td>
+						<td>1861</td>
+						<td><a href="https://www.geonames.org/2988507" target="_blank">Parigi</a><sup>GeoNames</sup></td>
+						<td><a href="http://vocab.getty.edu/aat/300041391" target="_blank">Xilografia</a><sup>AAT</sup></td>
+						<td><a href="http://viaf.org/viaf/159641835" target="_blank">Hachette</a><sup>VIAF</sup></td>
+						<td><a href="https://commons.wikimedia.org/wiki/File:DvinfernoPopeNicholasIII_m.jpg" target="_blank">Wikimedia Commons</a></td>
+					</tr>
+					<tr>
+						<td>Oggetto 21</td>
+						<td>XXI</td>
+						<td>Ottavo cerchio</td>
+						<td>
+							<a href="http://viaf.org/viaf/97105654" target="_blank">Dante</a><sup>VIAF</sup>
+							<a href="http://viaf.org/viaf/8194433" target="_blank">Virgilio</a><sup>VIAF</sup>
+							Melebranche
+						</td>
+						<td><a href="http://viaf.org/viaf/41839207" target="_blank">Gustave Doré</a><sup>VIAF</sup></td>
+						<td>1861</td>
+						<td><a href="https://www.geonames.org/2988507" target="_blank">Parigi</a><sup>GeoNames</sup></td>
+						<td><a href="http://vocab.getty.edu/aat/300041391" target="_blank">Xilografia</a><sup>AAT</sup></td>
+						<td><a href="http://viaf.org/viaf/159641835" target="_blank">Hachette</a><sup>VIAF</sup></td>
+						<td><a href="https://commons.wikimedia.org/wiki/File:DVinfernoDemonsThreatenVirgil.jpg" target="_blank">Wikimedia Commons</a></td>
+					</tr>
+					<tr>
+						<td>Oggetto 22</td>
+						<td>XXII</td>
+						<td>Ottavo cerchio</td>
+						<td>
+							Ciampolo
+							Melebranche
+						</td>
+						<td><a href="http://viaf.org/viaf/41839207" target="_blank">Gustave Doré</a><sup>VIAF</sup></td>
+						<td>1861</td>
+						<td><a href="https://www.geonames.org/2988507" target="_blank">Parigi</a><sup>GeoNames</sup></td>
+						<td><a href="http://vocab.getty.edu/aat/300041391" target="_blank">Xilografia</a><sup>AAT</sup></td>
+						<td><a href="http://viaf.org/viaf/159641835" target="_blank">Hachette</a><sup>VIAF</sup></td>
+						<td><a href="https://commons.wikimedia.org/wiki/File:DVinfernoCiampoloDemonAlichino_m.jpg" target="_blank">Wikimedia Commons</a></td>
+					</tr>
+					<tr>
+						<td>Oggetto 23</td>
+						<td>XXIII</td>
+						<td>Ottavo cerchio</td>
+						<td>
+							<a href="http://viaf.org/viaf/97105654" target="_blank">Dante</a><sup>VIAF</sup>
+							<a href="http://viaf.org/viaf/8194433" target="_blank">Virgilio</a><sup>VIAF</sup>
+							Ipocriti
+						</td>
+						<td><a href="http://viaf.org/viaf/41839207" target="_blank">Gustave Doré</a><sup>VIAF</sup></td>
+						<td>1861</td>
+						<td><a href="https://www.geonames.org/2988507" target="_blank">Parigi</a><sup>GeoNames</sup></td>
+						<td><a href="http://vocab.getty.edu/aat/300041391" target="_blank">Xilografia</a><sup>AAT</sup></td>
+						<td><a href="http://viaf.org/viaf/159641835" target="_blank">Hachette</a><sup>VIAF</sup></td>
+						<td><a href="https://commons.wikimedia.org/wiki/File:DVinfernoHypocritesAddressDante_m.jpg" target="_blank">Wikimedia Commons</a></td>
+					</tr>
+					<tr>
+						<td>Oggetto 24</td>
+						<td>XXIV</td>
+						<td>Ottavo cerchio</td>
+						<td>I ladri</td>
+						<td><a href="http://viaf.org/viaf/41839207" target="_blank">Gustave Doré</a><sup>VIAF</sup></td>
+						<td>1861</td>
+						<td><a href="https://www.geonames.org/2988507" target="_blank">Parigi</a><sup>GeoNames</sup></td>
+						<td><a href="http://vocab.getty.edu/aat/300041391" target="_blank">Xilografia</a><sup>AAT</sup></td>
+						<td><a href="http://viaf.org/viaf/159641835" target="_blank">Hachette</a><sup>VIAF</sup></td>
+						<td><a href="https://commons.wikimedia.org/wiki/File:DVinfernoThievesTorturedBySerpents_m.jpg" target="_blank">Wikimedia Commons</a></td>
+					</tr>
+					<tr>
+						<td>Oggetto 25</td>
+						<td>XXV</td>
+						<td>Ottavo cerchio</td>
+						<td>
+							<a href="http://viaf.org/viaf/188476461" target="_blank">Cacus</a><sup>VIAF</sup>
+						</td>
+						<td><a href="http://viaf.org/viaf/41839207" target="_blank">Gustave Doré</a><sup>VIAF</sup></td>
+						<td>1861</td>
+						<td><a href="https://www.geonames.org/2988507" target="_blank">Parigi</a><sup>GeoNames</sup></td>
+						<td><a href="http://vocab.getty.edu/aat/300041391" target="_blank">Xilografia</a><sup>AAT</sup></td>
+						<td><a href="http://viaf.org/viaf/159641835" target="_blank">Hachette</a><sup>VIAF</sup></td>
+						<td><a href="https://commons.wikimedia.org/wiki/File:DVinfernoAgnelloChangingIntoSerpent_m.jpg" target="_blank">Wikimedia Commons</a></td>
+					</tr>
+					<tr>
+						<td>Oggetto 26</td>
+						<td>XXVI</td>
+						<td>Ottavo cerchio</td>
+						<td>
+							<a href="http://viaf.org/viaf/97105654" target="_blank">Dante</a><sup>VIAF</sup>
+							<a href="http://viaf.org/viaf/8194433" target="_blank">Virgilio</a><sup>VIAF</sup>
+						</td>
+						<td><a href="http://viaf.org/viaf/41839207" target="_blank">Gustave Doré</a><sup>VIAF</sup></td>
+						<td>1861</td>
+						<td><a href="https://www.geonames.org/2988507" target="_blank">Parigi</a><sup>GeoNames</sup></td>
+						<td><a href="http://vocab.getty.edu/aat/300041391" target="_blank">Xilografia</a><sup>AAT</sup></td>
+						<td><a href="http://viaf.org/viaf/159641835" target="_blank">Hachette</a><sup>VIAF</sup></td>
+						<td><a href="https://commons.wikimedia.org/wiki/File:DVinfernoFlamingSpiritsOfEvilCounsellors_m.jpg" target="_blank">Wikimedia Commons</a></td>
+					</tr>
+					<tr>
+						<td>Oggetto 28</td>
+						<td>XXVIII</td>
+						<td>Ottavo cerchio</td>
+						<td>
+							<a href="http://viaf.org/viaf/97105654" target="_blank">Dante</a><sup>VIAF</sup>
+							<a href="http://viaf.org/viaf/8194433" target="_blank">Virgilio</a><sup>VIAF</sup>
+							<a href="http://viaf.org/viaf/7358398" target="_blank">Bertran de Born</a><sup>VIAF</sup>
+						</td>
+						<td><a href="http://viaf.org/viaf/41839207" target="_blank">Gustave Doré</a><sup>VIAF</sup></td>
+						<td>1861</td>
+						<td><a href="https://www.geonames.org/2988507" target="_blank">Parigi</a><sup>GeoNames</sup></td>
+						<td><a href="http://vocab.getty.edu/aat/300041391" target="_blank">Xilografia</a><sup>AAT</sup></td>
+						<td><a href="http://viaf.org/viaf/159641835" target="_blank">Hachette</a><sup>VIAF</sup></td>
+						<td><a href="https://commons.wikimedia.org/wiki/File:DVinfernoSeveredHeadOfBertranddeBorn_m.jpg" target="_blank">Wikimedia Commons</a></td>
+					</tr>
+					<tr>
+						<td>Oggetto 29</td>
+						<td>XXIX</td>
+						<td>Ottavo cerchio</td>
+						<td>
+							<a href="http://viaf.org/viaf/97105654" target="_blank">Dante</a><sup>VIAF</sup>
+							<a href="http://viaf.org/viaf/8194433" target="_blank">Virgilio</a><sup>VIAF</sup>
+						</td>
+						<td><a href="http://viaf.org/viaf/41839207" target="_blank">Gustave Doré</a><sup>VIAF</sup></td>
+						<td>1861</td>
+						<td><a href="https://www.geonames.org/2988507" target="_blank">Parigi</a><sup>GeoNames</sup></td>
+						<td><a href="http://vocab.getty.edu/aat/300041391" target="_blank">Xilografia</a><sup>AAT</sup></td>
+						<td><a href="http://viaf.org/viaf/159641835" target="_blank">Hachette</a><sup>VIAF</sup></td>
+						<td><a href="https://commons.wikimedia.org/wiki/File:DVinfernoVirgilReprovesDantesCuriosity_m.jpg" target="_blank">Wikimedia Commons</a></td>
+					</tr>
+					<tr>
+						<td>Oggetto 30</td>
+						<td>XXX</td>
+						<td>Ottavo cerchio</td>
+						<td>
+							<a href="http://viaf.org/viaf/97105654" target="_blank">Dante</a><sup>VIAF</sup>
+							<a href="http://viaf.org/viaf/8194433" target="_blank">Virgilio</a><sup>VIAF</sup>
+							Mirra
+						</td>
+						<td><a href="http://viaf.org/viaf/41839207" target="_blank">Gustave Doré</a><sup>VIAF</sup></td>
+						<td>1861</td>
+						<td><a href="https://www.geonames.org/2988507" target="_blank">Parigi</a><sup>GeoNames</sup></td>
+						<td><a href="http://vocab.getty.edu/aat/300041391" target="_blank">Xilografia</a><sup>AAT</sup></td>
+						<td><a href="http://viaf.org/viaf/159641835" target="_blank">Hachette</a><sup>VIAF</sup></td>
+						<td><a href="https://commons.wikimedia.org/wiki/File:Myrrha,_condemned_for_incest.jpg" target="_blank">Wikimedia Commons</a></td>
+					</tr>
+					<tr>
+						<td>Oggetto 31</td>
+						<td>XXXI</td>
+						<td>Nono cerchio</td>
+						<td>
+							<a href="http://viaf.org/viaf/97105654" target="_blank">Dante</a><sup>VIAF</sup>
+							<a href="http://viaf.org/viaf/8194433" target="_blank">Virgilio</a><sup>VIAF</sup>
+							Anteo
+						</td>
+						<td><a href="http://viaf.org/viaf/41839207" target="_blank">Gustave Doré</a><sup>VIAF</sup></td>
+						<td>1861</td>
+						<td><a href="https://www.geonames.org/2988507" target="_blank">Parigi</a><sup>GeoNames</sup></td>
+						<td><a href="http://vocab.getty.edu/aat/300041391" target="_blank">Xilografia</a><sup>AAT</sup></td>
+						<td><a href="http://viaf.org/viaf/159641835" target="_blank">Hachette</a><sup>VIAF</sup></td>
+						<td><a href="https://commons.wikimedia.org/wiki/File:DVinfernoGiantAntaeusLoweringDanteAndVirgil_m.jpg" target="_blank">Wikimedia Commons</a></td>
+					</tr>
+					<tr>
+						<td>Oggetto 32</td>
+						<td>XXXII</td>
+						<td>Nono cerchio</td>
+						<td>
+							<a href="http://viaf.org/viaf/97105654" target="_blank">Dante</a><sup>VIAF</sup>
+							<a href="http://viaf.org/viaf/8194433" target="_blank">Virgilio</a><sup>VIAF</sup>
+						</td>
+						<td><a href="http://viaf.org/viaf/41839207" target="_blank">Gustave Doré</a><sup>VIAF</sup></td>
+						<td>1861</td>
+						<td><a href="https://www.geonames.org/2988507" target="_blank">Parigi</a><sup>GeoNames</sup></td>
+						<td><a href="http://vocab.getty.edu/aat/300041391" target="_blank">Xilografia</a><sup>AAT</sup></td>
+						<td><a href="http://viaf.org/viaf/159641835" target="_blank">Hachette</a><sup>VIAF</sup></td>
+						<td><a href="https://commons.wikimedia.org/wiki/File:Dante_and_Virgil_walking_upon_the_waters_of_the_Styx,_illustration_to_Dante%E2%80%99s_Inferno_by_Gustave_Dor%C3%A9,_from_The_Vision_of_Hell._New_Edition,_1866.jpg" target="_blank">Wikimedia Commons</a></td>
+					</tr>
+					<tr>
+						<td>Oggetto 33</td>
+						<td>XXXIII</td>
+						<td>Nono cerchio</td>
+						<td>
+							<a href="http://viaf.org/viaf/46685689" target="_blank">Ugolino della Gherardesca</a><sup>VIAF</sup>
+							Figlio di Ugolino
+						</td>
+						<td><a href="http://viaf.org/viaf/41839207" target="_blank">Gustave Doré</a><sup>VIAF</sup></td>
+						<td>1861</td>
+						<td><a href="https://www.geonames.org/2988507" target="_blank">Parigi</a><sup>GeoNames</sup></td>
+						<td><a href="http://vocab.getty.edu/aat/300041391" target="_blank">Xilografia</a><sup>AAT</sup></td>
+						<td><a href="http://viaf.org/viaf/159641835" target="_blank">Hachette</a><sup>VIAF</sup></td>
+						<td><a href="https://commons.wikimedia.org/wiki/File:Inferno_Canto_33,_Gustave_Dor%C3%A8_2.jpg" target="_blank">Wikimedia Commons</a></td>
+					</tr>
+					<tr>
+						<td>Oggetto 34</td>
+						<td>XXXIV</td>
+						<td>Nono cerchio</td>
+						<td>
+							<a href="http://viaf.org/viaf/97105654" target="_blank">Dante</a><sup>VIAF</sup>
+							<a href="http://viaf.org/viaf/8194433" target="_blank">Virgilio</a><sup>VIAF</sup>
+						</td>
+						<td><a href="http://viaf.org/viaf/41839207" target="_blank">Gustave Doré</a><sup>VIAF</sup></td>
+						<td>1861</td>
+						<td><a href="https://www.geonames.org/2988507" target="_blank">Parigi</a><sup>GeoNames</sup></td>
+						<td><a href="http://vocab.getty.edu/aat/300041391" target="_blank">Xilografia</a><sup>AAT</sup></td>
+						<td><a href="http://viaf.org/viaf/159641835" target="_blank">Hachette</a><sup>VIAF</sup></td>
+						<td><a href="https://commons.wikimedia.org/wiki/File:Inferno_Canto_34,_Gustave_Dor%C3%A8_3.jpg" target="_blank">Wikimedia Commons</a></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<section class="sfondo-dati"></section>
+	</main>
+	<footer>
+			<div class="container-fluid pb-3 pt-3 background-nero">
+				<div class="container">
+					<p class="mb-0 pb-1 text-center">Credits | Licenze |<a href="dati.html">Dati</a></p>
+				</div>
+			</div>
+			<div class="container-fluid pb-3 pt-3 background-nero">
+				<p class="mb-0 pb-1 text-center">&copy; Copyright (c) 2026 <em>Fabiana Lomoro</em>
+				Università di Bologna</p> 
+			</div>
+		</footer>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

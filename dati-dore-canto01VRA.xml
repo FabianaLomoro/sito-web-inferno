@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vra xmlns="http://www.vraweb.org/vracore4.htm"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.loc.gov/standards/vracore/vra-strict.xsd">
+    <work id="w_01">
+        <agentSet>
+            <display>Gustave Doré (pittore e incisore francese, 1832-1883)</display>
+            <agent>
+                <name vocab="ULAN" refid="500013657" type=""></name>
+                <dates type="life">
+                    <earliestDate>1832</earliestDate>
+                    <latestDate>1883</latestDate>
+                </dates>
+                <culture>Francese</culture>
+                <role>artista</role>
+            </agent>
+        </agentSet>
+        <culturalContextSet>
+            <culturalContext>Francese</culturalContext>
+        </culturalContextSet>
+        <dateSet>
+            <display>1861 (creazione)</display>
+            <earliestDate>1861</earliestDate>
+            <latestDate>1861</latestDate>
+        </dateSet>
+        <descriptionSet>
+            <display>L'illustrazione traduce in immagine il celebre incipit della Commedia, inaugurando il viaggio che Dante si appresta a compiere attraverso l'Inferno, il Purgatorio e il Paradiso. La xilografia, il cui stile è profondamente radicato nel tardo Romanticismo europeo, è colma di drammaticità teatrale. 
+            Le tavole di Doré hanno profondamente plasmato l'immaginario visivo dell'Inferno.</display>
+            <description source="Descrizione a cura di Fabiana Lomoro">L'illustrazione traduce in immagine il celebre incipit della Commedia, inaugurando il viaggio che Dante si appresta a compiere attraverso l'Inferno, il Purgatorio e il Paradiso. La xilografia, il cui stile è profondamente radicato nel tardo Romanticismo europeo, è colma di drammaticità teatrale. 
+            Le tavole di Doré hanno profondamente plasmato l'immaginario visivo dell'Inferno.</description>
+        </descriptionSet>
+       <locationSet>
+           <display>Parigi, Francia</display>
+           <notes>Diversi editori, di cui il primo è stato Hachette</notes>
+           <location type="publication">
+            <name type="geographic" vocab="TGN" refid="7008038">Parigi</name>
+            <name type="geographic" vocab="TGN" refid="1000070">Francia</name>
+        </location>
+       </locationSet> 
+        <materialSet>
+            <display>Inchiostro su carta</display>
+            <material vocab="AAT" refid="300015012">Inchiostro</material>
+            <material vocab="AAT" refid="300014109">Carta</material>
+        </materialSet>
+        <sourceSet>
+           <display>Dante Alighieri, La Divina Commedia, illustrata da Gustave Doré, Hachette, Parigi, 1861</display> 
+        </sourceSet>
+        <stylePeriodSet>
+            <display>Romanticismo, XIX secolo</display>
+            <stylePeriod vocab="AAT" refid="300172863">Romanticismo</stylePeriod>
+            <stylePeriod vocab="LCSAF" refid="sh 85091984">Diciannovesimo secolo</stylePeriod>
+        </stylePeriodSet>
+        <techniqueSet>
+            <display>Xilografia</display>
+            <technique vocab="AAT" refid="300041405">Xilografia</technique>
+        </techniqueSet>
+        <worktypeSet>
+            <display>stampa; incisione su legno</display>
+            <worktype vocab="AAT" refid="300041273">stampa</worktype>
+            <worktype vocab="AAT" refid="300041402">incisione su legno</worktype>
+        </worktypeSet>
+    </work>
+    <image id="i_01" 
+        href="../img/canto01.jpg"
+        refid="1" source="Wikimedia Commons">
+        <measurementsSet>
+            <display>689kb</display>
+        </measurementsSet>
+        <relationSet>
+            <relation type="imageOf" refid="01"/>
+        </relationSet>
+        <rightsSet>
+            <display>Dominio Pubblico</display>
+        </rightsSet>
+        <sourceSet>
+            <display>Wikimedia Commons; https://commons.wikimedia.org/wiki/File:DVinfernoDuskyWood_m.jpg</display>
+        </sourceSet>
+        <worktypeSet>
+            <display>Immagine digitale</display>
+        </worktypeSet>
+    </image>
+</vra>
