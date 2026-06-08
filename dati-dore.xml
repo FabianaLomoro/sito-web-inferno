@@ -12,8 +12,8 @@
 	<tecnica ref="http://vocab.getty.edu/aat/300041391">Xilografia</tecnica>
 	<colore>Bianco e nero</colore>
 	<editore ref="http://viaf.org/viaf/159641835">Hachette</editore>
-	<immagine collegamento="immagine01.jpg">canto01</immagine>
-	<pagina collegamento="item1.html1">Item 1</pagina>
+	<immagine collegamento="canto01.jpg">canto01</immagine>
+	<pagina collegamento="itemI.html">Item 1</pagina>
 </oggetto>
 <oggetto n="2" xml:id="oggetto2">
 	<canto>II</canto>
@@ -28,8 +28,8 @@
 	<tecnica ref="http://vocab.getty.edu/aat/300041391">Xilografia</tecnica>
 	<colore>Bianco e nero</colore>
 	<editore ref="http://viaf.org/viaf/159641835">Hachette</editore>
-	<immagine collegamento="immagine02.jpg">canto02</immagine>
-	<pagina collegamento="item2.html2">Item 2</pagina>
+	<immagine collegamento="canto02.jpg">canto02</immagine>
+	<pagina collegamento="itemII.html">Item 2</pagina>
 </oggetto>
 <oggetto n="3" xml:id="oggetto3">
 	<canto>III</canto>
@@ -43,8 +43,8 @@
 	<tecnica ref="http://vocab.getty.edu/aat/300041391">Xilografia</tecnica>
 	<colore>Bianco e nero</colore>
 	<editore ref="http://viaf.org/viaf/159641835">Hachette</editore>
-	<immagine collegamento="immagine03.jpg">canto03</immagine>
-	<pagina collegamento="item3.html3">Item 3</pagina>
+	<immagine collegamento="canto03.jpg">canto03</immagine>
+	<pagina collegamento="itemIII.html">Item 3</pagina>
 </oggetto>
 <oggetto n="4" xml:id="oggetto4">
 	<canto>IV</canto>
@@ -63,8 +63,8 @@
 	<tecnica ref="http://vocab.getty.edu/aat/300041391">Xilografia</tecnica>
 	<colore>Bianco e nero</colore>
 	<editore ref="http://viaf.org/viaf/159641835">Hachette</editore>
-	<immagine collegamento="immagine04.jpg">canto04</immagine>
-<pagina collegamento="item4.html4">Item 4</pagina>
+	<immagine collegamento="canto04.jpg">canto04</immagine>
+<pagina collegamento="itemIV.html">Item 4</pagina>
 </oggetto>
 <oggetto n="5" xml:id="oggetto5">
 	<canto>V</canto>
@@ -79,8 +79,8 @@
 	<tecnica ref="http://vocab.getty.edu/aat/300041391">Xilografia</tecnica>
 	<colore>Bianco e nero</colore>
 	<editore ref="http://viaf.org/viaf/159641835">Hachette</editore>
-	<immagine collegamento="immagine05.jpg">canto05</immagine>
-	<pagina collegamento="item5.html5">Item 5</pagina>
+	<immagine collegamento="canto05.jpg">canto05</immagine>
+	<pagina collegamento="itemV.html">Item 5</pagina>
 </oggetto>
 <oggetto n="6" xml:id="oggetto6">
 	<canto>VI</canto>
@@ -96,8 +96,8 @@
 	<tecnica ref="http://vocab.getty.edu/aat/300041391">Xilografia</tecnica>
 	<colore>Bianco e nero</colore>
 	<editore ref="http://viaf.org/viaf/159641835">Hachette</editore>
-	<immagine collegamento="immagine06.jpg">canto06</immagine>
-	<pagina collegamento="item6.html6">Item 6</pagina>
+	<immagine collegamento="canto06.jpg">canto06</immagine>
+	<pagina collegamento="itemVI.html">Item 6</pagina>
 </oggetto>
 <oggetto n="7" xml:id="oggetto7">
 	<canto>VII</canto>
@@ -113,8 +113,8 @@
 	<tecnica ref="http://vocab.getty.edu/aat/300041391">Xilografia</tecnica>
 	<colore>Bianco e nero</colore>
 	<editore ref="http://viaf.org/viaf/159641835">Hachette</editore>
-	<immagine collegamento="immagine07.jpg">canto07</immagine>
-	<pagina collegamento="item7.html7">Item 7</pagina>
+	<immagine collegamento="canto07.jpg">canto07</immagine>
+	<pagina collegamento="itemVII.html">Item 7</pagina>
 </oggetto>
 <oggetto n="8" xml:id="oggetto8">
 	<canto>VIII</canto>
@@ -131,8 +131,8 @@
 	<tecnica ref="http://vocab.getty.edu/aat/300041391">Xilografia</tecnica>
 	<colore>Bianco e nero</colore>
 	<editore ref="http://viaf.org/viaf/159641835">Hachette</editore>
-	<immagine collegamento="immagine08.jpg">canto08</immagine>
-	<pagina collegamento="item8.html8">Item 8</pagina>
+	<immagine collegamento="canto08.jpg">canto08</immagine>
+	<pagina collegamento="itemVIII.html">Item 8</pagina>
 </oggetto>
 <oggetto n="9" xml:id="oggetto9">
 	<canto>IX</canto>
@@ -148,8 +148,8 @@
 	<tecnica ref="http://vocab.getty.edu/aat/300041391">Xilografia</tecnica>
 	<colore>Bianco e nero</colore>
 	<editore ref="http://viaf.org/viaf/159641835">Hachette</editore>
-	<immagine collegamento="immagine09.jpg">canto09</immagine>
-<pagina collegamento="item9.html9">Item 9</pagina>
+	<immagine collegamento="canto09.jpg">canto09</immagine>
+<pagina collegamento="itemIX.html">Item 9</pagina>
 </oggetto>
 <oggetto n="10" xml:id="oggetto10">
 	<canto>X</canto>
@@ -165,8 +165,8 @@
 	<tecnica ref="http://vocab.getty.edu/aat/300041391">Xilografia</tecnica>
 	<colore>Bianco e nero</colore>
 	<editore ref="http://viaf.org/viaf/159641835">Hachette</editore>
-	<immagine collegamento="immagine10.jpg">canto10</immagine>
-	<pagina collegamento="item10.html10">Item 10</pagina>
+	<immagine collegamento="canto10.jpg">canto10</immagine>
+	<pagina collegamento="itemX.html">Item 10</pagina>
 </oggetto>
 <oggetto n="11" xml:id="oggetto11">
 	<canto>XI</canto>
@@ -181,8 +181,8 @@
 	<tecnica ref="http://vocab.getty.edu/aat/300041391">Xilografia</tecnica>
 	<colore>Bianco e nero</colore>
 	<editore ref="http://viaf.org/viaf/159641835">Hachette</editore>
-	<immagine collegamento="immagine11.jpg">canto11</immagine>
-	<pagina collegamento="item11.html11">Item 11</pagina>
+	<immagine collegamento="canto11.jpg">canto11</immagine>
+	<pagina collegamento="itemXI.html">Item 11</pagina>
 </oggetto>
 <oggetto n="12" xml:id="oggetto12">
 	<canto>XII</canto>
@@ -198,8 +198,8 @@
 	<tecnica ref="http://vocab.getty.edu/aat/300041391">Xilografia</tecnica>
 	<colore>Bianco e nero</colore>
 	<editore ref="http://viaf.org/viaf/159641835">Hachette</editore>
-	<immagine collegamento="immagine12.jpg">canto12</immagine>
-	<pagina collegamento="item12.html12">Item 12</pagina>
+	<immagine collegamento="canto12.jpg">canto12</immagine>
+	<pagina collegamento="itemXII.html">Item 12</pagina>
 </oggetto>
 <oggetto n="13" xml:id="oggetto13">
 	<canto>XIII</canto>
@@ -216,8 +216,8 @@
 	<tecnica ref="http://vocab.getty.edu/aat/300041391">Xilografia</tecnica>
 	<colore>Bianco e nero</colore>
 	<editore ref="http://viaf.org/viaf/159641835">Hachette</editore>
-	<immagine collegamento="immagine13.jpg">canto13</immagine>
-	<pagina collegamento="item13.html13">Item 13</pagina>
+	<immagine collegamento="canto13.jpg">canto13</immagine>
+	<pagina collegamento="itemXIII.html">Item 13</pagina>
 </oggetto>
 <oggetto n="14" xml:id="oggetto14">
 	<canto>XIV</canto>
@@ -233,8 +233,8 @@
 	<tecnica ref="http://vocab.getty.edu/aat/300041391">Xilografia</tecnica>
 	<colore>Bianco e nero</colore>
 	<editore ref="http://viaf.org/viaf/159641835">Hachette</editore>
-	<immagine collegamento="immagine14.jpg">canto14</immagine>
-<pagina collegamento="item14.html14">Item 14</pagina>
+	<immagine collegamento="canto14.jpg">canto14</immagine>
+<pagina collegamento="itemXIV.html">Item 14</pagina>
 </oggetto>
 <oggetto n="15" xml:id="oggetto15">
 	<canto>XV</canto>
@@ -250,8 +250,8 @@
 	<tecnica ref="http://vocab.getty.edu/aat/300041391">Xilografia</tecnica>
 	<colore>Bianco e nero</colore>
 	<editore ref="http://viaf.org/viaf/159641835">Hachette</editore>
-	<immagine collegamento="immagine15.jpg">canto15</immagine>
-	<pagina collegamento="item15.html15">Item 15</pagina>
+	<immagine collegamento="canto15.jpg">canto15</immagine>
+	<pagina collegamento="itemXV.html">Item 15</pagina>
 </oggetto>
 <oggetto n="17" xml:id="oggetto17">
 	<canto>XVII</canto>
@@ -267,8 +267,8 @@
 	<tecnica ref="http://vocab.getty.edu/aat/300041391">Xilografia</tecnica>
 	<colore>Bianco e nero</colore>
 	<editore ref="http://viaf.org/viaf/159641835">Hachette</editore>
-	<immagine collegamento="immagine17.jpg">canto17</immagine>
-	<pagina collegamento="item17.html17">Item 17</pagina>
+	<immagine collegamento="canto17.jpg">canto17</immagine>
+	<pagina collegamento="itemXVII.html">Item 17</pagina>
 </oggetto>
 <oggetto n="18" xml:id="oggetto18">
 	<canto>XVIII</canto>
@@ -283,8 +283,8 @@
 	<tecnica ref="http://vocab.getty.edu/aat/300041391">Xilografia</tecnica>
 	<colore>Bianco e nero</colore>
 	<editore ref="http://viaf.org/viaf/159641835">Hachette</editore>
-	<immagine collegamento="immagine18.jpg">canto18</immagine>
-	<pagina collegamento="item18.html18">Item 18</pagina>
+	<immagine collegamento="canto18.jpg">canto18</immagine>
+	<pagina collegamento="itemXVIII.html">Item 18</pagina>
 </oggetto>
 <oggetto n="19" xml:id="oggetto19">
 	<canto>XIX</canto>
@@ -299,8 +299,8 @@
 	<tecnica ref="http://vocab.getty.edu/aat/300041391">Xilografia</tecnica>
 	<colore>Bianco e nero</colore>
 	<editore ref="http://viaf.org/viaf/159641835">Hachette</editore>
-	<immagine collegamento="immagine19.jpg">canto19</immagine>
-<pagina collegamento="item19.html19">Item 19</pagina>
+	<immagine collegamento="canto19.jpg">canto19</immagine>
+<pagina collegamento="itemXIX.html">Item 19</pagina>
 </oggetto>
 <oggetto n="21" xml:id="oggetto21">
 	<canto>XXI</canto>
@@ -316,8 +316,8 @@
 	<tecnica ref="http://vocab.getty.edu/aat/300041391">Xilografia</tecnica>
 	<colore>Bianco e nero</colore>
 	<editore ref="http://viaf.org/viaf/159641835">Hachette</editore>
-	<immagine collegamento="immagine21.jpg">canto21</immagine>
-	<pagina collegamento="item21.html21">Item 21</pagina>
+	<immagine collegamento="canto21.jpg">canto21</immagine>
+	<pagina collegamento="itemXXI.html">Item 21</pagina>
 </oggetto>
 <oggetto n="22" xml:id="oggetto22">
 	<canto>XXII</canto>
@@ -332,8 +332,8 @@
 	<tecnica ref="http://vocab.getty.edu/aat/300041391">Xilografia</tecnica>
 	<colore>Bianco e nero</colore>
 	<editore ref="http://viaf.org/viaf/159641835">Hachette</editore>
-	<immagine collegamento="immagine22.jpg">canto22</immagine>
-	<pagina collegamento="item22.html22">Item 22</pagina>
+	<immagine collegamento="canto22.jpg">canto22</immagine>
+	<pagina collegamento="itemXXII.html">Item 22</pagina>
 </oggetto>
 <oggetto n="23" xml:id="oggetto23">
 	<canto>XXIII</canto>
@@ -349,8 +349,8 @@
 	<tecnica ref="http://vocab.getty.edu/aat/300041391">Xilografia</tecnica>
 	<colore>Bianco e nero</colore>
 	<editore ref="http://viaf.org/viaf/159641835">Hachette</editore>
-	<immagine collegamento="immagine23.jpg">canto23</immagine>
-	<pagina collegamento="item23.html23">Item 23</pagina>
+	<immagine collegamento="canto23.jpg">canto23</immagine>
+	<pagina collegamento="itemXXIII.html">Item 23</pagina>
 </oggetto>
 <oggetto n="24" xml:id="oggetto24">
 	<canto>XXIV</canto>
@@ -364,8 +364,8 @@
 	<tecnica ref="http://vocab.getty.edu/aat/300041391">Xilografia</tecnica>
 	<colore>Bianco e nero</colore>
 	<editore ref="http://viaf.org/viaf/159641835">Hachette</editore>
-	<immagine collegamento="immagine24.jpg">canto24</immagine>
-<pagina collegamento="item24.html24">Item 24</pagina>
+	<immagine collegamento="canto24.jpg">canto24</immagine>
+<pagina collegamento="itemXXIV.html">Item 24</pagina>
 </oggetto>
 <oggetto n="25" xml:id="oggetto25">
 	<canto>XXV</canto>
@@ -379,8 +379,8 @@
 	<tecnica ref="http://vocab.getty.edu/aat/300041391">Xilografia</tecnica>
 	<colore>Bianco e nero</colore>
 	<editore ref="http://viaf.org/viaf/159641835">Hachette</editore>
-	<immagine collegamento="immagine25.jpg">canto25</immagine>
-	<pagina collegamento="item25.html25">Item 25</pagina>
+	<immagine collegamento="canto25.jpg">canto25</immagine>
+	<pagina collegamento="itemXXV.html">Item 25</pagina>
 </oggetto>
 <oggetto n="26" xml:id="oggetto26">
 	<canto>XXVI</canto>
@@ -395,8 +395,8 @@
 	<tecnica ref="http://vocab.getty.edu/aat/300041391">Xilografia</tecnica>
 	<colore>Bianco e nero</colore>
 	<editore ref="http://viaf.org/viaf/159641835">Hachette</editore>
-	<immagine collegamento="immagine26.jpg">canto26</immagine>
-	<pagina collegamento="item26.html26">Item 26</pagina>
+	<immagine collegamento="canto26.jpg">canto26</immagine>
+	<pagina collegamento="itemXXVI.html">Item 26</pagina>
 </oggetto>
 <oggetto n="28" xml:id="oggetto28">
 	<canto>XXVIII</canto>
@@ -412,8 +412,8 @@
 	<tecnica ref="http://vocab.getty.edu/aat/300041391">Xilografia</tecnica>
 	<colore>Bianco e nero</colore>
 	<editore ref="http://viaf.org/viaf/159641835">Hachette</editore>
-	<immagine collegamento="immagine28.jpg">canto28</immagine>
-	<pagina collegamento="item28.html28">Item 28</pagina>
+	<immagine collegamento="canto28.jpg">canto28</immagine>
+	<pagina collegamento="itemXXVIII.html">Item 28</pagina>
 </oggetto>
 <oggetto n="29" xml:id="oggetto29">
 	<canto>XXIX</canto>
@@ -428,8 +428,8 @@
 	<tecnica ref="http://vocab.getty.edu/aat/300041391">Xilografia</tecnica>
 	<colore>Bianco e nero</colore>
 	<editore ref="http://viaf.org/viaf/159641835">Hachette</editore>
-	<immagine collegamento="immagine29.jpg">canto29</immagine>
-<pagina collegamento="item29.html29">Item 29</pagina>
+	<immagine collegamento="canto29.jpg">canto29</immagine>
+<pagina collegamento="itemXXIX.html">Item 29</pagina>
 </oggetto>
 <oggetto n="30" xml:id="oggetto30">
 	<canto>XXX</canto>
@@ -445,8 +445,8 @@
 	<tecnica ref="http://vocab.getty.edu/aat/300041391">Xilografia</tecnica>
 	<colore>Bianco e nero</colore>
 	<editore ref="http://viaf.org/viaf/159641835">Hachette</editore>
-	<immagine collegamento="immagine30.jpg">canto30</immagine>
-<pagina collegamento="item30.html30">Item 30</pagina>
+	<immagine collegamento="canto30.jpg">canto30</immagine>
+<pagina collegamento="itemXXX.html">Item 30</pagina>
 </oggetto>
 <oggetto n="31" xml:id="oggetto31">
 	<canto>XXXI</canto>
@@ -462,8 +462,8 @@
 	<tecnica ref="http://vocab.getty.edu/aat/300041391">Xilografia</tecnica>
 	<colore>Bianco e nero</colore>
 	<editore ref="http://viaf.org/viaf/159641835">Hachette</editore>
-	<immagine collegamento="immagine31.jpg">canto31</immagine>
-	<pagina collegamento="item31.html31">Item 31</pagina>
+	<immagine collegamento="canto31.jpg">canto31</immagine>
+	<pagina collegamento="itemXXXI.html">Item 31</pagina>
 </oggetto>
 <oggetto n="32" xml:id="oggetto32">
 	<canto>XXXII</canto>
@@ -478,8 +478,8 @@
 	<tecnica ref="http://vocab.getty.edu/aat/300041391">Xilografia</tecnica>
 	<colore>Bianco e nero</colore>
 	<editore ref="http://viaf.org/viaf/159641835">Hachette</editore>
-	<immagine collegamento="immagine32.jpg">canto32</immagine>
-	<pagina collegamento="item32.html32">Item 32</pagina>
+	<immagine collegamento="canto32.jpg">canto32</immagine>
+	<pagina collegamento="itemXXXII.html">Item 32</pagina>
 </oggetto>
 <oggetto n="33" xml:id="oggetto33">
 	<canto>XXXIII</canto>
@@ -494,8 +494,8 @@
 	<tecnica ref="http://vocab.getty.edu/aat/300041391">Xilografia</tecnica>
 	<colore>Bianco e nero</colore>
 	<editore ref="http://viaf.org/viaf/159641835">Hachette</editore>
-	<immagine collegamento="immagine33.jpg">canto33</immagine>
-	<pagina collegamento="item33.html33">Item 33</pagina>
+	<immagine collegamento="canto33.jpg">canto33</immagine>
+	<pagina collegamento="itemXXXIII.html">Item 33</pagina>
 </oggetto>
 <oggetto n="34" xml:id="oggetto34">
 	<canto>XXXIV</canto>
@@ -510,7 +510,7 @@
 	<tecnica ref="http://vocab.getty.edu/aat/300041391">Xilografia</tecnica>
 	<colore>Bianco e nero</colore>
 	<editore ref="http://viaf.org/viaf/159641835">Hachette</editore>
-	<immagine collegamento="immagine34.jpg">canto34</immagine>
-<pagina collegamento="item34.html34">Item 34</pagina>
+	<immagine collegamento="canto34.jpg">canto34</immagine>
+<pagina collegamento="itemXXXIV.html">Item 34</pagina>
 </oggetto>
 </collezione>
