@@ -6,7 +6,7 @@
         <agentSet>
             <display>Gustave Doré (pittore e incisore francese, 1832-1883)</display>
             <agent>
-                <name vocab="ULAN" refid="500013657" type=""></name>
+                <name vocab="ULAN" refid="500013657" type="personal">Gustave Doré</name>
                 <dates type="life">
                     <earliestDate>1832</earliestDate>
                     <latestDate>1883</latestDate>
@@ -20,8 +20,8 @@
         </culturalContextSet>
         <dateSet>
             <display>1861 (creazione)</display>
-            <earliestDate>1861</earliestDate>
-            <latestDate>1861</latestDate>
+            <earliestDate type="creation">1861</earliestDate>
+            <latestDate type="creation">1861</latestDate>
         </dateSet>
         <descriptionSet>
             <display>L'illustrazione traduce in immagine il celebre incipit della Commedia, inaugurando il viaggio che Dante si appresta a compiere attraverso l'Inferno, il Purgatorio e il Paradiso. La xilografia, il cui stile è profondamente radicato nel tardo Romanticismo europeo, è colma di drammaticità teatrale. 

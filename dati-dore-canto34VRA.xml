@@ -6,7 +6,7 @@
         <agentSet>
             <display>Gustave Doré (pittore e incisore francese, 1832-1883)</display>
             <agent>
-                <name vocab="ULAN" refid="500013657" type=""></name>
+                <name vocab="ULAN" refid="500013657" type="personal">Gustave Doré</name>
                 <dates type="life">
                     <earliestDate>1832</earliestDate>
                     <latestDate>1883</latestDate>
@@ -20,8 +20,8 @@
         </culturalContextSet>
         <dateSet>
             <display>1861 (creazione)</display>
-            <earliestDate>1861</earliestDate>
-            <latestDate>1861</latestDate>
+            <earliestDate type="creation">1861</earliestDate>
+            <latestDate type="creation">1861</latestDate>
         </dateSet>
         <descriptionSet>
             <display>La xilografia sigilla l'Inferno e rappresenta il culmine della transizione dall'angoscia alla speranza teologale (e quindi uscimmo a riveder le stelle). Dante e Virgilio sono accolti dal candore delle stelle, incise come punti di luce pura nella trama del cielo.</display>
@@ -65,7 +65,7 @@
             <display>194kb</display>
         </measurementsSet>
         <relationSet>
-            <relation type="imageOf" refid="01"/>
+            <relation type="imageOf" refid="34"/>
         </relationSet>
         <rightsSet>
             <display>Dominio Pubblico</display>

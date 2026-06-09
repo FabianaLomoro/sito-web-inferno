@@ -4,12 +4,11 @@
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 xmlns:dc="http://purl.org/dc/elements/1.1/" 
 xmlns:dcterms="http://purl.org/dc/terms/" 
-xmlns:mp="http://InfernoDore/schema" 
-xmlns:tei="http://www.tei-c.org/ns/1.0">
+xmlns:mp="http://InfernoDore/schema">
 <dc:title>Canto I</dc:title>
 <dc:creator>Gustave Doré</dc:creator>
 <dcterms:creator xsi:type="dcterms:URI" mp:authority="VIAF">http://viaf.org/viaf/41839207</dcterms:creator>
-<dcterms:subject xsi:type="dcterms:LSCH">http://id.loc.gov/authorities/subjects/sh96011730</dcterms:subject>
+<dcterms:subject xsi:type="dcterms:LCSH">http://id.loc.gov/authorities/subjects/sh96011730</dcterms:subject>
 <dc:description>L'illustrazione traduce in immagine il celebre incipit della Commedia, inaugurando il viaggio che Dante si appresta a compiere attraverso l'Inferno, il Purgatorio e il Paradiso. La xilografia, il cui stile è profondamente radicato nel tardo Romanticismo europeo, è colma di drammaticità teatrale. 
 Le tavole di Doré hanno profondamente plasmato l'immaginario visivo dell'Inferno.</dc:description>
 <dc:publisher>Hachette</dc:publisher>
