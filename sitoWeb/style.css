@@ -1,24 +1,9 @@
 /*body*/
 body {
 	font-size: 17px;
-	margin: 0;
 	background-color: #000000;
 	color: #ffffff;
 	font-family: Georgia, serif;
-}
-
-/*titoli*/
-h1, h2, h3 {
-	color: #ffffff;
-	font-family: Georgia, serif;
-}
-
-/*bottone*/
-button {
-	background-color: #1a0000;
-	color: #ffffff;
-	border: none;
-	padding: 8px 16px;
 }
 
 /*navbar*/
@@ -28,7 +13,6 @@ button {
 
 .navbar-toggler {
 	margin-right: auto;
-	color: #ffffff !important;
 }
 
 .navbar-toggler:focus {
@@ -37,14 +21,11 @@ button {
 
 .navbar-brand {
 	margin-left: 20px;
-	color: #ffffff !important;
-	font-family: Georgia, serif;
 	font-weight: bold;
 }
 
 .navbar .nav-link {
 	color: #ffffff !important;
-	font-family: Georgia, serif;
 }
 
 .navbar .nav-link:hover {
@@ -55,7 +36,6 @@ button {
 .navbar input {
 	background-color: transparent !important;
 	color: #ffffff;
-	border: 1px solid #ffffff;
 	width: 150px;
 }
 
@@ -69,13 +49,11 @@ button {
 .navbar input::placeholder {
 	color: #ffffff;
 	opacity: 1;
-	font-family: Georgia, serif;
 }
 
 /*dropdown*/
 .dropdown-menu {
 	background-color: #1a0000;
-	border: 1px solid #ffffff;
 }
 
 .dropdown-item {
@@ -103,19 +81,11 @@ header {
 .carousel-item img {
 	height: 500px;
 	object-fit: cover;
-	background-color: #000000;
-	width: 100%;
 }
 
 /*testo carosello*/
-.carousel-caption h1 {
-	color: #ffffff;
+.carousel-caption h1, .carousel-caption p {
 	text-shadow: 3px 3px 8px #000000;
-}
-
-.carousel-caption p {
-	color: #ffffff;
-		text-shadow: 3px 3px 8px #000000;
 }
 
 .carousel-caption {
@@ -266,12 +236,10 @@ blockquote {
 	text-align: center;
 	border-left: none;
 	padding: 20px;
-	font-style: Italic;
-}
-
-blockquote {
+	font-style: italic;
 	margin-bottom: 5px;
 }
+
 
 /*tabella item*/
 .table a {
