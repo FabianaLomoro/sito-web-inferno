@@ -120,7 +120,6 @@ main .btn {
 .card {
 	background-color: #ffffff;
 	color: #000000;
-	border: 1px solid #000000;
 	transition: transform 0.2s;
 }
 
@@ -149,20 +148,15 @@ section h2 {
 	background-image: url("img/sfondo-sezione.jpg");
 	background-size: cover;
 	background-position: center;
-	background-repeat: no-repeat;
 	height: 600px;
 }
 
 /*footer*/
-.background-nero {
-	background-color: #000000;
-}
-
 footer a {
 	color: #ffffff;
 }
 
-/*aside catalogo*/
+/*aside*/
 .breadcrumb {
 	background-color: #1a0000;
 	padding: 8px 12px;
@@ -177,7 +171,7 @@ footer a {
 .breadcrumb li + li::before {
 	content: "> ";
 	padding: 0 5px;
-	color: #ffffff;
+	
 }
 
 aside ul {
@@ -200,24 +194,19 @@ aside ul li a:hover {
 }
 
 /*tab catalogo*/
-.nav-tabs {
-	border-bottom: 1px solid #ffffff;
-}
-
 .nav-tabs .nav-link {
 	color: #000000;
 	background-color: #ffffff;
 	border: 1px solid #000000;
 	margin-right: 2px;
 	padding: 4px 8px;
-}
+	}
 
 .nav-tabs .nav-link.active {
 	background-color: #1a0000;
 	color: #ffffff;
 	border-color: #1a0000;
 }
-
 
 .nav-tabs .nav-link:hover {
 	background-color: #1a0000;
@@ -234,7 +223,6 @@ aside ul li a:hover {
 /*blockquote*/
 blockquote {
 	text-align: center;
-	border-left: none;
 	padding: 20px;
 	font-style: italic;
 	margin-bottom: 5px;
@@ -278,8 +266,8 @@ blockquote {
 
 /*tabella dati*/
 .tabella-dati thead th {
-	background-color: #ffffff !important;
-	color: #000000 !important;
+	background-color: #ffffff;
+	color: #000000;
 	border: 3px solid #000000 !important;
 }
 
