@@ -36,7 +36,7 @@
 				<head>Canto I</head>
 				<p>Illustrazione relativa all'incipit dell'Inferno dantesco.</p>
 				<figure>
-					<graphic url="../img/canto01.jpg"/>
+					<graphic url="img/canto01.jpg"/>
 				</figure>
 				<lg type="terzina" n="1" rhyme="aba" met="endecasillabo">
 					<l n="1">Nel mezzo del cammin di nostra vita</l>

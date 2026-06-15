@@ -61,7 +61,7 @@
         </worktypeSet>
     </work>
     <image id="i_01" 
-        href="../img/canto01.jpg"
+        href="img/canto01.jpg"
         refid="1" source="Wikimedia Commons">
         <measurementsSet>
             <display>689kb</display>
